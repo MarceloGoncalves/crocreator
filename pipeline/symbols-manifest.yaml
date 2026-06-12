@@ -1,0 +1,16 @@
+# Manifest of approved symbols
+# Fill this file after reviewing the SVGs generated in src/assets/symbols/raw/
+#
+# Format:
+# symbols:
+#   - id: "grampo_simples"
+#     name: "Grampo Simples"
+#     category: "protecao"
+#     source: "FEMEMG_guia-para-a-elaboracao-de-croquis_final-jul23_page-12_img-1.svg"
+
+symbols:
+  # Examples (replace with actual extracted files):
+  # - id: "fissura_frontal"
+  #   name: "Fissura Frontal"
+  #   category: "terreno"
+  #   source: "dicertacao-dennis_page-45_img-3.svg"

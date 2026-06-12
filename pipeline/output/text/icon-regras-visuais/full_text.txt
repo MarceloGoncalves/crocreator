@@ -1,0 +1,1005 @@
+=== Página 1 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.11 
+.../cont./Parte A: Informações mínimas a serem fornecidas por guias e croquis de escalada 
+ 
+________ 
+fig.A3-a: exemplo de mapa completo das trilhas, pontos de interesse e acesso às áreas de escalada disponibilizado pelo Minnesota 
+State Park em Minnesota/EUA (fonte: mndnr.gov/interstate). 
+[.] 
+
+=== Página 2 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.12 
+Parte B 
+Simbologia e informação visual 
+A lógica da simbologia, da tipografia e da informação visual sugeridas neste Guia se 
+baseia nas melhores práticas adotadas internacionalmente pelas associações de montanha e 
+ainda naquela tradicionalmente utilizada no Brasil, e, pretende ser intuitiva e inteligível; 
+identificável e destacada; simples e de fácil esboço; permitindo assim ao autor do croqui 
+reproduzi-la manualmente sem dificuldades, reduzindo ao mínimo as diferenças entre um croqui 
+editado num software e outro feito à mão. 
+A simbologia básica sugerida nos capítulos que se seguem encontra-se separada em 
+grupos de pictogramas dotados de significado objetivo e exclusivo, organizados e estruturados 
+da seguinte forma: 
+Tabela 1 – classificação da simbologia adotada
+Grupo Família simbológica Finalidade 
+B1 
+Sinais de Informação padroniza o formato de divulgação de informações relevantes ou de advertências 
+sobre quaisquer perigos existentes ao longo da via de escalada. 
+B2 
+Referências naturais 
+não escaláveis 
+são os pictogramas destinados a auxiliar o escalador na localização de pontos de 
+importância ou no seu posicionamento geográfico dentro da via de escalada. 
+B3 
+Traçados e proteções padroniza a representação do traçado (forma ou rotas de progressão) e dos tipos de 
+proteção (fixas, móveis e naturais) que possam ocorrer ao longo da via de escalada. 
+B4 
+Paradas, rapeis e 
+bivaques 
+padroniza a convenção de símbolos que indicam a extensão das enfiadas, o tipo, o 
+conforto, a qualidade e a posição das paradas, das reuniões, dos rapeis e bivaques 
+na via de escalada. 
+B5 
+Referências naturais 
+escaláveis 
+padroniza as diversas representações gráficas da morfologia básica da rocha na via 
+de escalada que possibilitam ao escalador antever a possível técnica a ser aplicada. 
+B6 
+Fissuras e cavidades diz respeito aos diversos tipos de fissuras e cavidades presentes na via de escalada 
+e que exijam do escalador a aplicação de técnicas, equipamentos ou proteções 
+peculiares a determinados estilos de escalada. 
+ 
+Quanto à adoção da simbologia sugerida, convém que:
+a. seja inserida no croqui apenas a simbologia necessária à orientação dos 
+escaladores evitando-se os excessos, e, que se façam constar apenas as 
+referências naturais de claro destaque para que não se acentuem as dúvidas 
+durante a escalada; 
+b. seja inserida uma legenda no rodapé do croqui ou onde houver o melhor espaço, 
+que explore o significado da simbologia aplicada. 
+Por fim, os pictogramas apresentados neste Guia não guardam proporções exatas entre 
+si. Cabe ao autor do croqui prezar pelo bom senso ao aplicá-los. Exemplos e sugestões das 
+proporções constarão dentro de cada grupo estudado. Ainda sim, sugere-se quanto a dimensão 
+da informação gráfica apresentada no croqui: 
+I. que o desenho do croqui seja produzido em escala, e que, se possível, esta escala 
+conste no croqui para que as proporções e distâncias sejam obedecidas e o mais 
+fiéis possível à realidade; 
+II. que, dentro do possível, o desenho do croqui seja enquadrado em apenas uma 
+página, preferencialmente no formato A4; 
+III. que se empregue a simbologia e a tipografia num tamanho que permita a qualquer 
+um identificá-las ou lê-las facilmente. 
+[.] 
+
+=== Página 3 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.13 
+B1. 
+Sinais de informação 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B1-a 
+atenção 
+• indica uma condição de risco ou situação importante sobre a qual o 
+escalador deve tomar ciência, para isso, deve conter orientação textual; 
+exemplo: para indicar a presença de animais peçonhentos, de abelhas 
+ou animais na parede (espécies endêmicas ou de costume sazonal), de 
+flora silvestre ou de valor ambiental, e, ainda, a existência de patrimônio 
+arqueológico no local; 
+B1-b 
+exposição 
+• indica a localização de pontos onde exista a maior exposição da via, 
+conforme a indicação do “Grau E” no cabeçalho do croqui; 
+• o “Grau E” deve ser definido de acordo com as orientações do Sistema 
+Brasileiro de Graduação; 
+B1-c 
+pêndulo perigoso 
+indica junto ao traçado da via a localização dos pontos onde uma queda 
+pode resultar num pêndulo perigoso com o risco de lesão para o escalador 
+ou de dano para o equipamento; 
+B1-d 
+laca solta ou podre • o termo “laca” se refere às placas de rocha que se desprendem 
+parcialmente do afloramento rochoso. O fenômeno ocorre normalmente 
+por um processo de erosão do tipo física, onde a contração (devido ao 
+frio) e a dilatação (devido ao calor) ao longo do tempo fazem com que 
+esse processo de “descolamento” ocorra; 
+• convém indicar apenas quando estiver no trajeto da escalada  ou do 
+trecho de rapel; 
+B1-e 
+cascalho 
+• um monte de pedras pequenas (sempre soltas ou simplesmente 
+apoiadas); 
+• convém indicar apenas onde proporcionarem risco de caírem, como por 
+exemplo nos platôs, entre os trepa-matos e trepa-pedras ou no trajeto da 
+corda ao puxá-la para recuperar o rapel; 
+B1-f 
+bloco solto  
+• pedregulho ou pedras de médio a grande porte simplesmente apoiadas 
+e que ofereçam risco de deslocamento; 
+• convém indicar apenas quando estiver no trajeto da escalada  ou do 
+trecho de rapel; 
+B1-g 
+informações 
+• quaisquer informações julgadas como importantes, direção de escape, 
+indicação de sentido de caminhada, descidas etc.; 
+• as setas devem sempre estar acompanhadas de informação textual;  
+• inclui a indicação de referências artificiais que são de livre esboço e 
+menção pelo autor do croqui (contenções de rocha, como ocorrem em 
+montanhas do RJ por exemplo; cruzes, antenas, vigas, escoras, caixas 
+d’água, vergalhões de obra, etc); 
+[.] 
+ 
+ 
+
+=== Página 4 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.14 
+B2. 
+Referências naturais não escaláveis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B2-a 
+vegetação do tipo 
+arbórea 
+• inclui todas as espécies de árvores, de esboço livre ao autor do croqui; 
+• convém indicar quando a árvore servir como ancoragem para a parada 
+ou como ancoragem para o rapel; 
+B2-b 
+vegetação do tipo 
+arbustiva ou 
+gramínea 
+inclui toda a classe de vegetação rasteira presente em trilhas ou 
+característica às paredes, como bromélias, sempre-vivas, canelas-de-ema 
+etc.; 
+B2-c 
+vegetação do tipo 
+espinhosa 
+inclui toda a classe de vegetação que requer a atenção do escalador, como 
+por exemplo os cactos, mandacarus, macambiras, urtigas etc, de esboço 
+livre ao autor do croqui; 
+B2-d 
+totem 
+um amontoado de pedras de caráter indicativo; 
+B2-e 
+bloco de rocha 
+• inclui os blocos soltos ou os bicos de pedra; 
+• convém indicar quando o bloco ou bico de pedra servir como ancoragem 
+para a parada ou como ancoragem para o rapel; 
+B2-f 
+curso d’água 
+• inclui toda a classe de leitos ou passagens de água, como por exemplo 
+as cachoeiras, canaletas molhadas ou outras surgências presentes na 
+parede; 
+• convém indicar quando da sua presença no traçado da via ou quando 
+servirem como referência importante para a orientação; 
+B2-g 
+poço ou cacimba 
+indicar quando for possível a obtenção de água para consumo; 
+[.] 
+ 
+ 
+
+=== Página 5 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.15 
+B3. 
+Traçados e proteções 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B3-a 
+rota da via ou da 
+variante 
+• traçado com linha tracejada; 
+• trajeto da via de escalada no estilo “livre”, podendo ser: 
+I. 
+via fixa: predominam as proteções do tipo fixa; 
+II. via mista: intercala proteções do tipo fixa, móvel ou natural; 
+III. via móvel: predominam as proteções do tipo móvel ou natural, 
+podendo existir paradas com proteções do tipo fixa; 
+B3-b 
+rota em artificial 
+• traçado com linha pontilhada; 
+• trajeto da via onde predomina a escalada no estilo artificial, 
+independentemente da técnica ou das proteções aplicadas, sendo que: 
+I. 
+vias fixas ou mistas com apenas alguns lances ou enfiadas em 
+artificial não são consideradas “vias artificiais”, e possuem 
+notação específica, conforme o descrito no Sistema Brasileiro 
+de Graduação; 
+II. convém indicar o tipo do artificial quando este estilo de escalada 
+for empregado; 
+III. convém indicar a posição dos pontos de progressão no traçado 
+do artificial; 
+B3-c 
+trecho de 
+caminhada 
+trajeto da rota em trilha, trepa-mato ou trepa-pedra; convém indicar a 
+exposição, a verticalidade, o risco de desprendimento de vegetação e/ou o 
+risco de queda de pedras; 
+B3-d 
+corda fixa ou cabo 
+de aço 
+trajeto da via de escalada realizada com o apoio de cabos de aço ou cordas 
+fixas; 
+B3-e 
+passagem em 
+pêndulo 
+indica toda a gama de manobras do tipo “pêndulo” executadas para acessar 
+setores ou trechos no trajeto da via; 
+B3-f 
+buraco de cliff 
+o buraco de cliff não se enquadra como proteção, porém, convém que seja 
+indicado no traçado quando se fizer necessário; 
+B3-g 
+proteção do tipo 
+FIXA 
+engloba os grampos do tipo “P”, chapeletas de todos os tipos fixadas com 
+qualquer classe de chumbadores mecânicos à rocha incluindo aqueles 
+aplicados com fixadores químicos, e, quaisquer proteções do tipo “móvel” 
+definitivamente entaladas e não recuperáveis, como por exemplo um piton; 
+B3-h 
+proteção do tipo 
+MÓVEL 
+engloba toda a classe de entaladores aplicados em fissuras e lacas, sejam 
+eles proteções do tipo ativa (friends e camalots, por exemplo) ou do tipo 
+passiva (nuts, por exemplo); 
+B3-i 
+proteção do tipo 
+PITON 
+convém indicar apenas quando se tratar de proteção regular ao longo da 
+via de escalada; 
+B3-j 
+proteção em fita 
+• fitas, cabos ou cordas instalados em blocos, bicos de pedra, buracos, 
+pilares ou árvores; 
+• indicar, com detalhes, o ponto e a forma da colocação da fita; 
+ 
+ 
+
+=== Página 6 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.16 
+.../cont./B3.Traçados e proteções 
+B3.1. Disposições a respeito do traçado 
+Sugere-se indicar ao longo do traçado de cada enfiada a graduação de lances chave em 
+algarismos romanos, ou, em se tratando de vias em artificial, a graduação correspondente do 
+trecho. 
+A respeito do traçado das variantes da via principal, sugere-se que: 
+a. se faça constar no croqui da via principal o traçado completo das variantes que 
+possuam extensão de até uma enfiada. Neste caso, o traçado da via principal deve 
+ser indicado com a sigla “V.N.” – via normal; 
+b. o traçado das variantes com extensão maior do que uma enfiada deve constar num 
+croqui próprio a parte do croqui da via principal, sendo desejável neste caso que: 
+I. no traçado da via principal exista a indicação do ponto de saída para cada 
+variante; 
+II. no croqui da variante se faça constar qual é a via principal e a descrição de 
+seu ponto de saída e de chegada; 
+c. as variantes devem ser nomeadas individualmente e ter a indicação do seu grau geral. 
+A adoção ou não do prefixo de “variante” junto ao nome da via fica a cargo do 
+conquistador; 
+d. as pontes (transições) entre duas vias não serão consideradas variantes, mesmo 
+assim, é conveniente que seja indicado no croqui o grampo e nome da via de destino. 
+ 
+B3.2. Disposições a respeito das proteções 
+a. caso o autor do croqui julgue necessário e importante para efeito de orientação ao 
+escalador na via, poderá diferenciar a representação das proteções fixas no traçado 
+do croqui, utilizando símbolos distintos para grampos (por exemplo, uma letra “P”), 
+chapeletas ou outros dispositivos utilizados, sendo mandatório, porém, que indique a 
+convenção utilizada na legenda do croqui; 
+b. as proteções devem ser indicadas com o pictograma sobreposto à linha do traçado; 
+c. proteções que não façam parte do traçado da via, mas que estejam presentes na sua 
+proximidade, deverão ser assinaladas no croqui para alertar ao escalador; 
+d. as proteções do tipo “móvel” devem ser indicadas da seguinte forma: 
+I. via mista: fica a cargo do autor do croqui indicar ou não a posição da aplicação 
+das peças móveis de acordo com a complexidade ou a especificidade da via; 
+II. via móvel: a quantidade, o tipo das peças, peças repetidas e o seu número de 
+referência devem constar apenas na listagem de materiais; 
+III. convém indicar a posição, o tipo de peça e o seu número de referência em 
+situações ou locais específicos (ex: uma via onde o croqui sugere o uso de 
+poucas peças, de colocações específicas, de peça incomum ou única no jogo 
+sugerido); 
+e. no caso da aplicação de peças do tipo ATIVA recomenda-se utilizar, como uma 
+referência padrão para o tamanho das peças, os Camalots da marca Black Diamond. 
+O apêndice 1A: tabela de comparação de peças móveis disponibiliza uma lista 
+comparativa de tamanhos entre as marcas mais usuais. 
+ 
+ 
+
+=== Página 7 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.17 
+.../cont./B3.Traçados e proteções 
+B3.3. Exemplos de aplicação 
+ 
+exe-1: exemplo simples de aplicação do traçado e das proteções. 
+[a] neste primeiro trecho observa-se um traçado simples de via contendo 3 proteções do tipo fixa 
+no seu trajeto; 
+[b] a partir da 3ª proteção observa-se a indicação da necessidade de se executar um rapel com 
+pêndulo para alcançar um platô ao lado; 
+[c] a via segue por um pequeno platô onde o croqui indica um traçado de caminhada e alguma 
+vegetação, neste trecho é possível perceber também que não existe a indicação de proteções 
+no trajeto; 
+[d] na saída do platô é possível perceber um traçado de “artificial”, indicando que a via segue 
+então neste estilo progredindo-se através grampos até que chegue a última proteção fixa no final 
+do trajeto. Nota-se que, sempre onde houver a indicação de traçado em artificial, o tipo de 
+progressão deve ser indicado, podendo ser por exemplo: artificiais em móvel como nuts, 
+excentrics, SLCDs etc; grampos de progressão como stubais, parafusos e rebites; acessórios 
+como coperheads, ganchos do tipo cliff, skyhooks, peckers, rurps ou pitons etc; 
+[e] a via prossegue no estilo artificial a partir do grampo através de dois buracos de cliff, o que 
+indica ao escalador a necessidade de portar estes recursos para vencer o trecho;  
+[f] após vencer os buracos de cliff, a via dá acesso então a um cabo de aço por onde se progride 
+em travessia. 
+ 
+ 
+
+=== Página 8 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.18 
+.../cont./B3.Traçados e proteções 
+ 
+ 
+ 
+exe-2: via mista com indicação 
+de dois trechos protegidos por 
+proteções móveis, neste caso, 
+a lista dos móveis encontrar-
+se-á sugerida no cabeçalho do 
+croqui; 
+exe-3: via em móvel, com a 
+indicação de colocações 
+específicas em trecho chave 
+conforme julgamento do autor 
+do croqui, os demais móveis 
+estarão relacionados no 
+cabeçalho do croqui; 
+exe-4: via mista com a 
+indicação de um trecho em 
+artificial com cooperheads 
+protegido por um piton e por 
+um laço de fita colocado numa 
+árvore; 
+ 
+ 
+ 
+ 
+ 
+exe-5: via contendo uma 
+variante de extensão curta 
+(menor que 1 enfiada ou 60m) 
+estando a variante dentro do 
+croqui da via principal; 
+exe-6: via contendo uma 
+variante com extensão longa 
+(maior que 1 enfiada ou 60m), 
+com a indicação da saída da 
+variante, que estará em croqui 
+a parte; 
+exe-7: croqui da variante da 
+via do exe-6, neste caso, o 
+croqui da variante indica os 
+pontos de interseção com a via 
+principal no início e no final da 
+variante; 
+[.] 
+ 
+ 
+
+=== Página 9 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.19 
+B4. 
+Paradas, rapeis e bivaques 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B4-a 
+classificação do 
+tipo da parada 
+• parada fixa: aquela ancorada em proteções do tipo “fixa”; 
+• parada em móvel: aquela ancorada em proteções do tipo “móvel”; 
+• parada mista: aquela ancorada em proteções fixas e/ou móveis e/ou naturais; 
+• parada simples: aquela ancorada numa única proteção; 
+obs.: para as paradas do tipo fixa, convém indicar o diâmetro da proteção 
+quando esta fugir dos padrões mais usuais (chapeletas com parabolts de 
+3/8" e grampos de 1/2"); 
+B4-b 
+classificação de 
+conforto da parada 
+• conforto da parada: 
+I. 
+boa: em platô ou rampa com relativo conforto; 
+II. regular (±): suspensa, mas com apoio razoável para os pés; 
+III. ruim (–): totalmente suspensa, sem nenhum apoio para os pés, 
+onde se utilizam geralmente os estribos; 
+• conforto do bivaque: 
+I. 
+bom: para bivaques abrigados (ex: em caverna) ou em platôs 
+grandes/seguros; 
+II. regular (±): para bivaques em platôs pequenos e/ou inseguros; 
+III. ruim (–): para bivaques em suspensão, abrigados ou não, onde 
+é indispensável o uso de portaledge ou rede; 
+B4-c 
+classificação do 
+uso da parada 
+• apenas de reunião: indica uma parada na via da escalada que não se 
+deve utilizar para o rapel; 
+• de reunião e de rapel: indica uma parada na via de escalada que pode 
+ser utilizada para o rapel; 
+• de reunião e de bivaque: indica uma parada na via de escalada com 
+estrutura adequada para um descanso prolongado e que pode ainda ser 
+utilizada para o rapel (neste caso deve ser sinalizada); 
+B4-d 
+parada em árvore 
+aquela ancorada através de um laço de fita, cabo ou corda aplicado numa 
+árvore; 
+B4-e 
+parada em bloco 
+ou bico de pedra 
+aquela ancorada através de um laço de fita, cabo ou corda aplicado num 
+bloco ou num bico de pedra; 
+ 
+ 
+
+=== Página 10 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.20 
+.../cont./B4. Paradas, rapeis e bivaques 
+B4.1. Disposições a respeito das paradas, do rapel e dos bivaques 
+a. a convenção de conforto da parada (ver B4-b) é opcional, sendo conveniente a sua 
+adoção apenas quando se tratar de croquis de vias longas ou nos casos em que o 
+autor do croqui julgar necessário; 
+b. quando houver a indicação de parada opcional no croqui, sugere-se descrever o 
+motivo desta parada existir, para fins de orientação ao escalador; 
+c. no caso de bivaque, convém indicar o número aproximado de pessoas que comporta; 
+d. a respeito do retorno, convém indicar no croqui: 
+I. se o rapel se fizer por uma parada localizada fora do traçado da via ou se 
+houver uma parada exclusiva para o rapel. Neste caso, informar a extensão 
+deste rapel à parte da indicação da extensão da enfiada, sinalizada com uma 
+letra “R” (exemplo “R:35m”). Em caso de dúvidas, consultar o exe-8; 
+II. se o rapel se fizer por outra via; 
+III. se há a necessidade de deixar a via encordada para conseguir acessar a 
+parada durante o rapel (em rapéis negativos ou em diagonal, por exemplo); 
+IV. se a descida se fizer por trilha ou por outros meios, e neste caso, indicar o 
+meio (como no morro da Urca/RJ onde se pode descer de bondinho); 
+ 
+B4.2. Exemplos de aplicação 
+[a] uma longa enfiada em artificial de cliffs por baixo de um teto entre a P13 e a P14, observa-se 
+uma parada em móvel na P13, e a presença de 3 proteções fixas ao longo do trecho em artificial; 
+[b] saindo do teto segue-se um trecho fácil de III grau, com 
+proteções fixas; 
+[c] a P15 está num platô com parada em árvore (parada 
+natural), onde existe a possibilidade de bivaque no platô; 
+[d] a partir da P15 segue-se por um trecho de IV grau com 
+proteções fixas, acessando uma grande fenda em laca a partir 
+da P16, toda protegida em móvel e graduada em VIIb; 
+[e] na P17 a parada é executada em móvel, e dá acesso a uma 
+travessia com proteções fixas até a P18; 
+[f] nota-se um grande desvio na rota entre a P15 e P17, o que 
+dificulta o rapel no retorno, por este motivo o conquistador 
+“bateu” uma parada em grampo único possibilitando descer em 
+linha reta da P18 até a P15. Na P14, P15 e na P18 é possível 
+perceber a notação específica da extensão do rapel (R:25m). 
+exe-8: via longa mista com diversas peculiaridades técnicas. 
+ 
+
+=== Página 11 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.21 
+.../cont./B4. Paradas, rapeis e bivaques 
+ 
+ 
+ 
+exe-9: via de enfiada cheia, 
+sem paradas no meio, com 
+descida através de trilha (ver 
+indicação); 
+exe-10: via com uma parada 
+simples ao meio, sem 
+nenhuma opção de rapel, o 
+rapel é pela via ao lado (ver 
+indicação); 
+exe-11: via mista com enfiadas 
+em fenda de borda e em fenda 
+frontal. Observa-se uma 
+parada com indicação de 
+conforto ruim (―) e outra 
+regular ( ± ), o último rapel é 
+executado em uma árvore; 
+exe-12: via longa com 
+travessia em diagonal. 
+Neste caso existe a indicação 
+para que se deixem as 
+paradas encordadas durante a 
+subida possibilitando rapelar 
+no retorno sem ter que 
+executar um pêndulo para 
+acessar a parada abaixo 
+(prática comum na modalidade 
+de BigWall); 
+ 
+[.] 
+
+=== Página 12 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.22 
+B5. 
+Referências naturais escaláveis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B5-a 
+aresta 
+• alinhamento formado pelo encontro de duas faces rochosas que se 
+projetam nas margens ou pelas faces da parede como a quina de uma 
+parede. Propõe escaladas expostas e técnicas e normalmente não aceita 
+a colocação de proteções móveis; 
+• convém indicar se propiciarem o risco de corte da corda durante uma 
+queda ou pelo contato tensionado (pictograma 
+); 
+B5-b 
+diedro 
+• duas faces de rocha ou lajes que convergem em forma de livro aberto, 
+geralmente com uma fenda interna; 
+• convém indicar a simbologia de proteção móvel quando o diedro 
+possibilitar a proteção nas fendas com peças do tipo móvel; 
+B5-c 
+canaleta seca 
+irregularidade em forma de canal de drenagem na rocha causada pela 
+erosão associada à passagem da água da chuva. Sua evolução pode levar 
+à formação de “chaminés”. As canaletas secas geralmente são utilizadas 
+pelo escalador como uma via de escalada; 
+B5-d 
+pilar ou coluna 
+geralmente encontrado no calcário; 
+B5-e 
+rampão ou laje 
+laje de rocha com inclinação positiva e pouca estrutura destacada (sem 
+agarras), onde a aderência é frequentemente o único recurso de escalada; 
+B5-f 
+platô e teto 
+projeção de laje de rocha no trajeto da escalada: 
+I. 
+platô: superfícies com ou sem vegetação suficientemente planas 
+a ponto de não exigirem obrigatoriamente que o escalador 
+permaneça em suspensão ou auto assegurado numa parada; 
+II. teto: projeção de rocha quase horizontal, próxima a 180 graus, 
+perpendicular à parede por sobre o trajeto da escalada; 
+B5-g 
+trecho negativo 
+trecho de parede com uma inclinação negativa que projeta o corpo do 
+escalador constantemente para fora da parede; 
+B5-h 
+trecho vertical 
+trecho de parede com inclinação próxima dos 90 graus. Convém indicar no 
+croqui quando o trecho destoar da inclinação média da parede; 
+B5-i 
+lance em barriga 
+• projeção de rocha abaulada na parede que se impõe como obstáculo e 
+que normalmente não dispõe de agarras, o que exige a aplicação da 
+técnica de aderência, o uso de pequenos regletes ou, eventualmente, a 
+aplicação da técnica de artificial para transpô-la; 
+B5-j 
+cristaleira 
+• veio ou feixe de cristais que serve como linha de agarras ao longo do 
+traçado da via – comumente encontrado em rochas ígneas intrusivas 
+como granitos e gnaisses. Veios são originalmente fissuras que são 
+preenchidas por outros minerais durante o processo de formação da 
+rocha (os mais comuns nesse tipo de estrutura são quartzo e feldspato); 
+• o pictograma é aplicado ao redor da linha do traçado no croqui; 
+B5-k 
+chorreira 
+• formação rochosa do tipo concreção que proporciona uma superfície 
+rugosa e áspera muito comum – mas não limitada – às zonas de calcário; 
+• o pictograma é aplicado ao redor da linha do traçado no croqui; 
+Obs.: Os pictogramas B5-e, B5-g, B5-h, B5-i, B5-j e B5-k devem ser inseridos sobre o traçado quando representarem um trecho 
+curto de escalada. Para os casos em que representarem trechos longos, deve-se demarcar o respectivo trecho com um 
+colchete e inserir o pictograma ou a descrição ao lado, conforme exemplos adiante.  
+ 
+
+=== Página 13 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.23 
+.../cont./B5.Referências naturais escaláveis 
+B5.1. Exemplos de aplicação 
+exe-13: via mista, com três enfiadas cheias (≥ 
+50m). No croqui é possível se observar: 
+[a] o início da via num rampão de aderência 
+entre cactos, alcançando um platô por onde 
+segue por uma trilha sinalizada por totens; 
+[b] a via continua novamente passando por 
+lances de aderência de III grau, até alcançar a 
+sua primeira parada (P1) num pequeno platô; 
+[c] na sequência a escalada atravessa um crux 
+graduado em VIIc por lance numa parede de 
+inclinação negativa; 
+[d] após o crux a via segue através de um lance 
+vertical destacado pelo croquista, e na 
+sequência por um lance em barriga margeando 
+um curso d’água (referência geográfica), até 
+atingir uma parada em grampo único (P2); 
+[e] a via se encerra seguindo para o cume 
+através de uma sequência de cristaleiras com a 
+indicação de “exposição perigosa” e de 
+proteção apenas em móvel; 
+[f] o rapel de descida sai do cume ancorado 
+num bloco de pedra que dá acesso ao grampo 
+logo abaixo. 
+ 
+exe-14: [a] a primeira via inicia numa canaleta e termina por uma trilha; [b] a segunda via inicia 
+num diedro protegido em móvel e segue pela aresta entre a P1 (conforto ruim) e a P2; [c] uma 
+via para rapel, basicamente, a linha de descida de todas as vias, e; [d] a quarta via inicia num 
+rampão em aderência, passa por uma fissura em borda e termina numa longa chorreira;    [.] 
+
+=== Página 14 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.24 
+B6. 
+Fissuras e cavidades 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B6-a 
+fissura tipo fenda 
+frontal 
+• fenda mais estreita do que uma chaminé (<60cm); 
+• geralmente aceita a colocação de proteções do tipo “móvel”, neste caso, 
+convém indicar a simbologia de proteção móvel (ver 
+ e 
+); 
+• pode predominar a técnica de entalamento; 
+• convém fazer constar a seguinte referência de largura quando se tratar 
+de fendas onde predominam as técnicas de entalamento:  
+ 
+D (dedos): fissura em que cabem apenas os dedos;  
+M (mão): fissura em que cabem apenas as mãos ou o punho; 
+OW (off-width): fissura larga, porém, estreita o suficiente para caber 
+somente algumas partes ou a metade do corpo; 
+B6-b 
+fissura tipo 
+chaminé
+• fenda que se apresenta na face da parede com largura suficiente para 
+caber o corpo dentro (>60cm); espaço entre duas paredes de rocha 
+onde cabe uma pessoa inteira. As chaminés podem ser formadas com a 
+evolução do processo de formação das canaletas (muito comuns no 
+Parque Nacional do Itatiaia) ou, mais frequentemente, se formam em 
+resposta a processos tectônicos que movimentam as rochas e fazem 
+com que se rompam; 
+• convém fazer constar a seguinte referência de largura da chaminé:  
+E (estreita) ou “suplício chinês”: fissura com espaço suficiente para 
+caber a largura do corpo;  
+P (padrão/média): onde usualmente se aplica a técnica de 
+contraposição (com as costas apoiadas numa face e as pernas 
+esticadas com os pés apoiados na outra face); 
+L (larga): onde se aplica a técnica de “tesoura” (com as pernas 
+esticadas, e cada pé apoiado em uma face); 
+B6-c 
+fissura tipo 
+chaminé entalada 
+convém indicar apenas quando a obstrução se opor como obstáculo à 
+escalada, ou quando, a obstrução servir como âncora para a proteção ou 
+para o rapel; 
+B6-d 
+fissura em laca, 
+borda, ou aresta 
+• fendas que ocorrem entre projeções de rocha nos formatos variados que 
+se destacam da parede; 
+• geralmente saliências do tipo laca, bordas ou arestas horizontais ou 
+verticais que permitem um bom encaixe para as mãos e para os pés; 
+• no caso de aceitarem também a colocação de peças de proteção do tipo 
+móvel, convém indicar a simbologia da proteção aplicável (ver detalhes 
+no 
+); 
+B6-e 
+caverna 
+• passagem por gruta, por cavidades ou por galerias durante o trajeto da 
+escalada; 
+• as cavidades que não façam parte do traçado da via (incluindo para o 
+bivaque) têm o seu esboço livre e opcional, cabendo ao autor do croqui 
+julgar a necessidade de sua representação; 
+ 
+ 
+
+=== Página 15 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.25 
+.../cont./B6.Fissuras e cavidades 
+B6.1. Exemplos de aplicação 
+ 
+exe-15: transcrição de via real, observa-se neste exemplo uma ideia de aplicação de escala e a 
+falta da indicação dos pontos de colocação das proteções móveis por opção do autor do croqui, 
+já que estas predominam em toda a via. 
+ 
+
+=== Página 16 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.26 
+.../cont./B6.Fissuras e cavidades 
+ 
+ 
+exe-16: transcrição de via. Observa-se, neste 
+exemplo, a indicação de uma chaminé do tipo 
+off width e, ainda, a sugestão dos pontos de 
+colocação das proteções móveis, por opção 
+dos conquistadores e do autor do croqui; 
+exe-17: transcrição de via. Observa-se, neste 
+exemplo, a passagem por um crux de VI grau, 
+dando acesso à uma longa chaminé protegida 
+em fixo. Na sequência, a chaminé desemboca 
+numa fenda que dá acesso a uma última 
+enfiada por lances de agarra. Observa-se, 
+ainda, que os rapéis pela P3 e P2 são 
+executados num grampo único; 
+ 
+ 
+
+=== Página 17 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.27 
+.../cont./B6.Fissuras e cavidades 
+ 
+exe-18: exemplo de croqui de uma das vias mais clássicas do estado de Minas Gerais, tendo-se 
+incorporado ao croqui toda a linguagem sugerida por este Guia. 
+É possível ver a indicação de um lance em barriga próximo à 5ª proteção e na sequência a 
+indicação de lances de aderência em rampas. Outras particularidades são a indicação de 
+advertência a respeito de blocos soltos no traçado da via e a advertência com relação aos lances 
+expostos. 
+No cume do croqui é possível verificar ainda a indicação da descida por trilha e a indicação da 
+existência de um grampo fixado num bloco escondido entre a vegetação. 
+ 
+ 
+
+=== Página 18 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.28 
+.../cont./B6.Fissuras e cavidades 
+ 
+exe-19: transcrição de uma via bastante original. Observa-se uma aproximação perigosa com a 
+indicação de exposição; na sequência aparece uma pequena fissura que dá acesso a um trecho 
+protegido por chapas que levam até a P1, classificada como uma parada “regular”. 
+A via segue atravessando por um trecho exposto de trepa-mato entre a P2 e a P3. 
+O trecho da P4 ocorre ao lado de grandes formações rochosas em diedro, porém, o traçado 
+segue em artificial (classificado como A1+) atravessando o seu crux por um paredão negativo 
+(VIIIa em livre) até chegar à P4 localizada logo abaixo do cume. 
+ 
+ 
+
+=== Página 19 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.29 
+.../cont./B6.Fissuras e cavidades 
+ 
+exe-20: outra via Clássica de Minas Gerais representada na linguagem deste Guia num traçado 
+mais orgânico desenhado a punho pelo autor do croqui. Vale relembrar que toda a linguagem 
+proposta pelo Guia visa facilitar o desenho a punho por qualquer escalador que não tenha 
+conhecimento ou recurso para produzir a arte em formato digital.                                                             [.] 
+
+=== Página 20 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.30 
+.../cont./B6.Fissuras e cavidades 
+ 
+exe-21: mais uma via icônica do Estado de Minas Gerais, também representada no estilo a 
+punho pelo autor do croqui.                                                                                                                              [.] 
+
+=== Página 21 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.31 
+Parte C 
+Croquitagem de vias esportivas 
+As vias esportivas geralmente são de fácil leitura e de curta extensão. Por este motivo, 
+os seus croquis tendem e podem ser mais simples e intuitivos. As sugestões adiante seguem 
+uma linha de estruturação já consagrada entre escaladores e autores de croquis do mundo todo 
+e constam neste documento para efeito de registro e de harmonização da linguagem. 
+ 
+C1. 
+Composição de guias e croquis de escalada esportiva 
+a. devem disponibilizar as informações listadas na Parte A deste Guia; 
+b. devem fornecer o mapeamento das vias do setor, sendo que: 
+I. para setores ainda em consolidação ou com alta densidade de vias, o 
+mapeamento deve atender ao capítulo C2; 
+II. para setores já consolidados ou com baixa densidade de vias, o mapeamento 
+deve atender ao capítulo C3; 
+c. devem apresentar um gráfico para cada setor que indique o número de vias por grau 
+de dificuldade. Este gráfico tem a finalidade de permitir ao escalador conhecer 
+genericamente a dificuldade geral do setor (ver fig.C1-a); 
+d. devem apresentar uma tabela com o sumário de todas as vias e projetos do setor 
+contendo as seguintes informações (ver fig.C1-a): 
+• 
+número de referência e nome da via de acordo com o mapeamento; 
+• 
+extensão da via (informação importantíssima uma vez que define o 
+comprimento da corda a ser utilizada); 
+• 
+grau geral, de acordo com o Sistema Brasileiro de Graduação; 
+• 
+predominância, tipo e quantidade das proteções; 
+• 
+nomes/apelidos dos conquistadores e o ano da conquista; 
+ 
+ 
+fig.C1-a: exemplo de aplicação da convenção e dos elementos gráficos sugeridos neste capítulo. 
+ 
+
+=== Página 22 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.32 
+.../cont./Parte C: Croquitagem de vias esportivas 
+C2. 
+Mapeamento de setores com alta densidade de vias 
+Em virtude da capacidade de atender bem ao dinamismo imposto pelas constantes 
+atualizações, o mapeamento através de uma planta simples tende a ser a solução mais 
+adequada para: 
+a. zonas de escalada em fase de consolidação com setores ou áreas ainda em pleno 
+desenvolvimento; 
+b. setores com muitos projetos em andamento, e ainda; 
+c. zonas de escalada com quantidades significativas de setores e/ou de vias. 
+ 
+Sugere-se, para tanto, que o mapa disponibilizado forneça as seguintes informações (ver 
+fig.C2-a) além dos dados listados no capítulo C1: 
+a. elementos cartográficos: escala, legenda e orientação cartográfica (rosa dos ventos); 
+b. indicação dos acessos para cada setor, das trilhas e sentidos; 
+c. referências naturais de destaque que auxiliem o escalador na localização dos setores 
+e vias de escalada;
+d. o número e posição das vias; 
+ 
+ 
+fig.C2-a: exemplo de mapa disponibilizado na Gruta da Lapinha/MG onde podem-se observar os elementos gráficos sugeridos, 
+autoria de Daniel Ferreira Mariano e Eustáquio Macedo Melo Júnior. Os tradicionais guias do Sítio do Rod/MG, Serra do 
+Cipó/MG, Gruta da Lapinha/MG, Sinuosa/MG, Lapa do Seu Antão/MG, Gruta do Baú/MG e do Rastro de São Pedro/MG são 
+ótimos exemplos do mapeamento de vias e setores. 
+ 
+
+=== Página 23 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.33 
+.../cont./Parte C: Croquitagem de vias esportivas 
+C3. 
+Mapeamento de setores com baixa densidade de vias 
+A fotografia ou o esboço das paredes do setor contendo o traçado das vias desenhado 
+diretamente sobre a imagem é a melhor solução para zonas de escalada já consolidadas, em 
+fase final de desenvolvimento ou que não sejam mais alvo de atualizações. Neste caso, 
+recomenda-se disponibilizar um esboço (ver fig.C3-a, C3-b e C3-c) juntamente com os dados 
+listados no capítulo C1. 
+ 
+ 
+fig.C3-a: esboço rascunhado de setor em Northwood Bluffs/Columbia Britânica (fonte: MountainProject.com). Os guias da 
+Pedra do Santuário/SP, de Rio de Pedras/MG e da Serra do Lenheiro/MG são bons exemplos a se seguir. 
+ 
+ 
+ 
+fig.C3-b e C3-c: traçado das vias diretamente sobre a imagem em setores dos Três Pontões, Serra do Lenheiro, São João Del 
+Rei/MG. Imagens cedidas pelo autor do Guida de Escalada da Serra do Lenheiro - Pedro Naves. 
+

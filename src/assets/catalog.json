@@ -1,0 +1,454 @@
+{
+  "symbols": [
+    {
+      "id": "B1_a",
+      "code": "B1-a",
+      "name": "atenção",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_a.svg",
+      "color": "#f59e0b",
+      "placeholder": true
+    },
+    {
+      "id": "B1_b",
+      "code": "B1-b",
+      "name": "exposição",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_b.svg",
+      "color": "#ef4444",
+      "placeholder": true
+    },
+    {
+      "id": "B1_c",
+      "code": "B1-c",
+      "name": "pêndulo perigoso",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_c.svg",
+      "color": "#f97316",
+      "placeholder": true
+    },
+    {
+      "id": "B1_d",
+      "code": "B1-d",
+      "name": "laca solta ou podre",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_d.svg",
+      "color": "#a78bfa",
+      "placeholder": true
+    },
+    {
+      "id": "B1_e",
+      "code": "B1-e",
+      "name": "cascalho",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_e.svg",
+      "color": "#94a3b8",
+      "placeholder": true
+    },
+    {
+      "id": "B1_f",
+      "code": "B1-f",
+      "name": "bloco solto",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_f.svg",
+      "color": "#6b7280",
+      "placeholder": true
+    },
+    {
+      "id": "B1_g",
+      "code": "B1-g",
+      "name": "informações",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/B1_g.svg",
+      "color": "#3b82f6",
+      "placeholder": true
+    },
+    {
+      "id": "B2_a",
+      "code": "B2-a",
+      "name": "vegetação arbórea",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_a.svg",
+      "color": "#22c55e",
+      "placeholder": true
+    },
+    {
+      "id": "B2_b",
+      "code": "B2-b",
+      "name": "vegetação arbustiva",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_b.svg",
+      "color": "#86efac",
+      "placeholder": true
+    },
+    {
+      "id": "B2_c",
+      "code": "B2-c",
+      "name": "vegetação espinhosa",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_c.svg",
+      "color": "#4ade80",
+      "placeholder": true
+    },
+    {
+      "id": "B2_d",
+      "code": "B2-d",
+      "name": "totem",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_d.svg",
+      "color": "#d97706",
+      "placeholder": true
+    },
+    {
+      "id": "B2_e",
+      "code": "B2-e",
+      "name": "bloco de rocha",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_e.svg",
+      "color": "#78716c",
+      "placeholder": true
+    },
+    {
+      "id": "B2_f",
+      "code": "B2-f",
+      "name": "curso d'água",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_f.svg",
+      "color": "#38bdf8",
+      "placeholder": true
+    },
+    {
+      "id": "B2_g",
+      "code": "B2-g",
+      "name": "poço ou cacimba",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/B2_g.svg",
+      "color": "#0ea5e9",
+      "placeholder": true
+    },
+    {
+      "id": "B3_a",
+      "code": "B3-a",
+      "name": "grampo de expansão",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_a.svg",
+      "color": "#e2e8f0",
+      "placeholder": true
+    },
+    {
+      "id": "B3_b",
+      "code": "B3-b",
+      "name": "furo sem grampo",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_b.svg",
+      "color": "#94a3b8",
+      "placeholder": true
+    },
+    {
+      "id": "B3_c",
+      "code": "B3-c",
+      "name": "espeleotema",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_c.svg",
+      "color": "#c084fc",
+      "placeholder": true
+    },
+    {
+      "id": "B3_d",
+      "code": "B3-d",
+      "name": "ingência",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_d.svg",
+      "color": "#fb923c",
+      "placeholder": true
+    },
+    {
+      "id": "B3_e",
+      "code": "B3-e",
+      "name": "canaleta",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_e.svg",
+      "color": "#60a5fa",
+      "placeholder": true
+    },
+    {
+      "id": "B3_f",
+      "code": "B3-f",
+      "name": "fissura do tipo fenda",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_f.svg",
+      "color": "#a78bfa",
+      "placeholder": true
+    },
+    {
+      "id": "B3_g",
+      "code": "B3-g",
+      "name": "fissura do tipo diedro",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_g.svg",
+      "color": "#818cf8",
+      "placeholder": true
+    },
+    {
+      "id": "B3_h",
+      "code": "B3-h",
+      "name": "placa",
+      "category": "protecao",
+      "categoryLabel": "Proteções",
+      "file": "assets/symbols/B3_h.svg",
+      "color": "#e2e8f0",
+      "placeholder": true
+    },
+    {
+      "id": "B4_a",
+      "code": "B4-a",
+      "name": "reunião com grampos",
+      "category": "reuniao",
+      "categoryLabel": "Reuniões e ancoragens",
+      "file": "assets/symbols/B4_a.svg",
+      "color": "#fbbf24",
+      "placeholder": true
+    },
+    {
+      "id": "B4_b",
+      "code": "B4-b",
+      "name": "reunião com árvore",
+      "category": "reuniao",
+      "categoryLabel": "Reuniões e ancoragens",
+      "file": "assets/symbols/B4_b.svg",
+      "color": "#4ade80",
+      "placeholder": true
+    },
+    {
+      "id": "B4_c",
+      "code": "B4-c",
+      "name": "reunião com blocos",
+      "category": "reuniao",
+      "categoryLabel": "Reuniões e ancoragens",
+      "file": "assets/symbols/B4_c.svg",
+      "color": "#a78bfa",
+      "placeholder": true
+    },
+    {
+      "id": "B4_d",
+      "code": "B4-d",
+      "name": "reunião autoequalizante",
+      "category": "reuniao",
+      "categoryLabel": "Reuniões e ancoragens",
+      "file": "assets/symbols/B4_d.svg",
+      "color": "#f472b6",
+      "placeholder": true
+    },
+    {
+      "id": "B5_a",
+      "code": "B5-a",
+      "name": "linha de via",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_a.svg",
+      "color": "#e2e8f0",
+      "placeholder": true
+    },
+    {
+      "id": "B5_b",
+      "code": "B5-b",
+      "name": "início de via",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_b.svg",
+      "color": "#34d399",
+      "placeholder": true
+    },
+    {
+      "id": "B5_c",
+      "code": "B5-c",
+      "name": "fim de via",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_c.svg",
+      "color": "#f87171",
+      "placeholder": true
+    },
+    {
+      "id": "B5_d",
+      "code": "B5-d",
+      "name": "direção de progressão",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_d.svg",
+      "color": "#60a5fa",
+      "placeholder": true
+    },
+    {
+      "id": "B5_e",
+      "code": "B5-e",
+      "name": "via variante",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_e.svg",
+      "color": "#fb923c",
+      "placeholder": true
+    },
+    {
+      "id": "B5_f",
+      "code": "B5-f",
+      "name": "cruzamento de vias",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_f.svg",
+      "color": "#fbbf24",
+      "placeholder": true
+    },
+    {
+      "id": "B5_g",
+      "code": "B5-g",
+      "name": "rappel",
+      "category": "via",
+      "categoryLabel": "Linha de via",
+      "file": "assets/symbols/B5_g.svg",
+      "color": "#a78bfa",
+      "placeholder": true
+    },
+    {
+      "id": "B6_a",
+      "code": "B6-a",
+      "name": "teto ou extraplombo",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_a.svg",
+      "color": "#94a3b8",
+      "placeholder": true
+    },
+    {
+      "id": "B6_b",
+      "code": "B6-b",
+      "name": "rampa ou slab",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_b.svg",
+      "color": "#78716c",
+      "placeholder": true
+    },
+    {
+      "id": "B6_c",
+      "code": "B6-c",
+      "name": "diedro",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_c.svg",
+      "color": "#6b7280",
+      "placeholder": true
+    },
+    {
+      "id": "B6_d",
+      "code": "B6-d",
+      "name": "aresta",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_d.svg",
+      "color": "#94a3b8",
+      "placeholder": true
+    },
+    {
+      "id": "B6_e",
+      "code": "B6-e",
+      "name": "chaminé",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_e.svg",
+      "color": "#78716c",
+      "placeholder": true
+    },
+    {
+      "id": "B6_f",
+      "code": "B6-f",
+      "name": "butrino",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_f.svg",
+      "color": "#6b7280",
+      "placeholder": true
+    },
+    {
+      "id": "B6_g",
+      "code": "B6-g",
+      "name": "fissura horizontal",
+      "category": "terreno",
+      "categoryLabel": "Características do terreno",
+      "file": "assets/symbols/B6_g.svg",
+      "color": "#94a3b8",
+      "placeholder": true
+    },
+    {
+      "id": "B7_a",
+      "code": "B7-a",
+      "name": "grau numérico",
+      "category": "cotacao",
+      "categoryLabel": "Cotações",
+      "file": "assets/symbols/B7_a.svg",
+      "color": "#fbbf24",
+      "placeholder": true
+    },
+    {
+      "id": "B7_b",
+      "code": "B7-b",
+      "name": "grau francês",
+      "category": "cotacao",
+      "categoryLabel": "Cotações",
+      "file": "assets/symbols/B7_b.svg",
+      "color": "#fbbf24",
+      "placeholder": true
+    },
+    {
+      "id": "B7_c",
+      "code": "B7-c",
+      "name": "grau UIAA",
+      "category": "cotacao",
+      "categoryLabel": "Cotações",
+      "file": "assets/symbols/B7_c.svg",
+      "color": "#f59e0b",
+      "placeholder": true
+    },
+    {
+      "id": "B7_d",
+      "code": "B7-d",
+      "name": "grau de exposição E",
+      "category": "cotacao",
+      "categoryLabel": "Cotações",
+      "file": "assets/symbols/B7_d.svg",
+      "color": "#ef4444",
+      "placeholder": true
+    },
+    {
+      "id": "B7_e",
+      "code": "B7-e",
+      "name": "solo integral",
+      "category": "cotacao",
+      "categoryLabel": "Cotações",
+      "file": "assets/symbols/B7_e.svg",
+      "color": "#dc2626",
+      "placeholder": true
+    }
+  ]
+}

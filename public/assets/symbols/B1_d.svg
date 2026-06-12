@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: visioncortex VTracer 0.6.12 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="193" height="162">
+<path d="M0,0 L14,0 L27,4 L49,16 L67,29 L77,38 L84,48 L88,58 L87,66 L75,97 L63,126 L60,127 L62,118 L68,105 L71,96 L57,110 L56,112 L53,112 L55,108 L70,92 L76,85 L84,64 L69,80 L53,97 L47,104 L44,103 L50,96 L59,86 L67,78 L74,70 L82,62 L84,59 L83,53 L82,51 L78,53 L70,61 L63,69 L55,77 L48,85 L45,87 L46,82 L58,70 L65,62 L73,54 L78,48 L77,44 L75,41 L71,43 L61,53 L54,61 L46,69 L40,76 L36,75 L41,70 L49,62 L56,54 L65,45 L71,37 L65,32 L52,45 L48,50 L46,49 L49,44 L56,37 L62,29 L55,25 L43,37 L41,37 L43,33 L52,23 L47,19 L43,20 L35,28 L28,36 L23,40 L24,35 L39,20 L42,15 L33,13 L19,28 L16,28 L18,24 L30,12 L31,9 L22,7 L8,22 L-1,32 L-4,32 L-2,28 L6,20 L13,12 L20,4 L9,4 L-5,18 L-12,26 L-20,34 L-23,38 L-26,38 L-24,34 L-17,27 L-10,19 L-2,11 L4,4 L-4,4 L-10,6 L-24,21 L-32,30 L-35,29 L-29,22 L-17,9 L-15,6 L-26,9 L-34,13 L-36,13 L-37,17 L-41,22 L-46,21 L-50,23 L-51,20 L-40,13 L-30,7 L-22,4 L-8,1 Z M-43,18 Z M-44,19 Z " fill="#000000" transform="translate(87,14)"/>
+<path d="M0,0 L6,1 L7,2 L6,18 L1,42 L-3,43 L-5,37 L-5,29 L-3,14 L-3,2 Z " fill="#000000" transform="translate(102,43)"/>
+<path d="M0,0 L1,3 L-6,11 L-9,13 L-8,8 Z " fill="#000000" transform="translate(97,47)"/>
+<path d="M0,0 L6,2 L5,17 L0,38 L-4,39 L-6,33 L-5,20 L-4,14 L-4,2 Z " fill="#000000" transform="translate(81,47)"/>
+<path d="M0,0 L5,0 L7,2 L7,12 L2,32 L1,34 L-3,33 L-4,31 L-4,20 L-2,4 L-2,1 Z " fill="#000000" transform="translate(125,52)"/>
+<path d="M0,0 L1,3 L-4,8 L-4,4 Z " fill="#000000" transform="translate(75,53)"/>
+<path d="M0,0 L2,0 L0,5 L-12,18 L-13,15 L-6,7 Z " fill="#000000" transform="translate(120,57)"/>
+<path d="M0,0 L1,3 L-5,10 L-8,9 L-2,2 Z " fill="#000000" transform="translate(95,67)"/>
+<path d="M0,0 L1,4 L-10,15 L-11,12 Z " fill="#000000" transform="translate(118,77)"/>
+<path d="M0,0 L4,1 L7,4 L7,10 L3,13 L-2,11 L-4,8 L-3,2 Z " fill="#000000" transform="translate(99,88)"/>
+<path d="M0,0 L5,0 L8,4 L8,10 L6,12 L0,12 L-3,8 L-2,2 Z " fill="#000000" transform="translate(76,92)"/>
+<path d="M0,0 L5,1 L5,3 L7,3 L8,9 L5,12 L0,12 L-3,9 L-3,2 Z " fill="#000000" transform="translate(122,92)"/>
+</svg>

@@ -1,0 +1,554 @@
+{
+  "symbols": [
+    {
+      "id": "b1-a",
+      "code": "B1-a",
+      "name": "atenção",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-a.svg",
+      "color": "#f59e0b",
+      "placeholder": false
+    },
+    {
+      "id": "b1-b",
+      "code": "B1-b",
+      "name": "exposição",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-b.svg",
+      "color": "#ef4444",
+      "placeholder": false
+    },
+    {
+      "id": "b1-c-direita",
+      "code": "B1-c",
+      "name": "pêndulo perigoso (Direita)",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-c-direita.svg",
+      "color": "#f97316",
+      "placeholder": false
+    },
+    {
+      "id": "b1-c-esquerda",
+      "code": "B1-c",
+      "name": "pêndulo perigoso (Esquerda)",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-c-esquerda.svg",
+      "color": "#f97316",
+      "placeholder": false
+    },
+    {
+      "id": "b1-d",
+      "code": "B1-d",
+      "name": "laca solta ou podre",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-d.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b1-e",
+      "code": "B1-e",
+      "name": "cascalho",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-e.svg",
+      "color": "#94a3b8",
+      "placeholder": false
+    },
+    {
+      "id": "b1-f",
+      "code": "B1-f",
+      "name": "bloco solto",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-f.svg",
+      "color": "#6b7280",
+      "placeholder": false
+    },
+    {
+      "id": "b1-g",
+      "code": "B1-g",
+      "name": "informações",
+      "category": "informacao",
+      "categoryLabel": "Sinais de informação",
+      "file": "assets/symbols/b1-g.svg",
+      "color": "#3b82f6",
+      "placeholder": false
+    },
+    {
+      "id": "b2-a",
+      "code": "B2-a",
+      "name": "vegetação arbórea",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-a.svg",
+      "color": "#22c55e",
+      "placeholder": false
+    },
+    {
+      "id": "b2-b",
+      "code": "B2-b",
+      "name": "vegetação arbustiva",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-b.svg",
+      "color": "#86efac",
+      "placeholder": false
+    },
+    {
+      "id": "b2-c",
+      "code": "B2-c",
+      "name": "vegetação espinhosa",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-c.svg",
+      "color": "#4ade80",
+      "placeholder": false
+    },
+    {
+      "id": "b2-d",
+      "code": "B2-d",
+      "name": "totem",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-d.svg",
+      "color": "#d97706",
+      "placeholder": false
+    },
+    {
+      "id": "b2-e",
+      "code": "B2-e",
+      "name": "bloco de rocha",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-e.svg",
+      "color": "#78716c",
+      "placeholder": false
+    },
+    {
+      "id": "b2-f",
+      "code": "B2-f",
+      "name": "curso d'água",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-f.svg",
+      "color": "#38bdf8",
+      "placeholder": false
+    },
+    {
+      "id": "b2-g",
+      "code": "B2-g",
+      "name": "poço ou cacimba",
+      "category": "referencia_natural",
+      "categoryLabel": "Referências naturais",
+      "file": "assets/symbols/b2-g.svg",
+      "color": "#0ea5e9",
+      "placeholder": false
+    },
+    {
+      "id": "b3-a",
+      "code": "B3-a",
+      "name": "Rota da via ou da variante",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-a.svg",
+      "color": "#000000",
+      "placeholder": false
+    },
+    {
+      "id": "b3-b",
+      "code": "B3-b",
+      "name": "Rota em Artificial",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-b.svg",
+      "color": "#94a3b8",
+      "placeholder": false
+    },
+    {
+      "id": "b3-c",
+      "code": "B3-c",
+      "name": "trecho de caminhada",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-c.svg",
+      "color": "#c084fc",
+      "placeholder": false
+    },
+    {
+      "id": "b3-d",
+      "code": "B3-d",
+      "name": "corda fixa ou cabo de aço",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-d.svg",
+      "color": "#fb923c",
+      "placeholder": false
+    },
+    {
+      "id": "b3-e-esquerda",
+      "code": "B3-e",
+      "name": "passagem em pendulo a esquerda e a direita (Esquerda)",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-e-esquerda.svg",
+      "color": "#60a5fa",
+      "placeholder": false
+    },
+    {
+      "id": "b3-e",
+      "code": "B3-e",
+      "name": "passagem em pendulo a esquerda e a direita",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-e.svg",
+      "color": "#60a5fa",
+      "placeholder": false
+    },
+    {
+      "id": "b3-f",
+      "code": "B3-f",
+      "name": "buraco de cliff",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-f.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b3-g",
+      "code": "B3-g",
+      "name": "proteção do tipo FIXA",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-g.svg",
+      "color": "#818cf8",
+      "placeholder": false
+    },
+    {
+      "id": "b3-h",
+      "code": "B3-h",
+      "name": "proteção do tipo MÓVEL",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-h.svg",
+      "color": "#e2e8f0",
+      "placeholder": false
+    },
+    {
+      "id": "b3-i",
+      "code": "B3-i",
+      "name": "proteção do tipo PITON",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-i.svg",
+      "color": "#e2e8f0",
+      "placeholder": false
+    },
+    {
+      "id": "b3-j",
+      "code": "B3-j",
+      "name": "proteção em fita",
+      "category": "protecao",
+      "categoryLabel": "Traçados e Proteções",
+      "file": "assets/symbols/b3-j.svg",
+      "color": "#e2e8f0",
+      "placeholder": false
+    },
+    {
+      "id": "b4-a-parada-fixa",
+      "code": "B4-a",
+      "name": "Parada Fixa",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-a-parada-fixa.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b4-a-parada-mista",
+      "code": "B4-a",
+      "name": "Parada Mista",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-a-parada-mista.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b4-a-parada-movel",
+      "code": "B4-a",
+      "name": "Parada Movel",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-a-parada-movel.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b4-a-parada-simples",
+      "code": "B4-a",
+      "name": "Parada Simples",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-a-parada-simples.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b4-b-regular",
+      "code": "B4-b",
+      "name": "Regular",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-b-regular.svg",
+      "color": "#4ade80",
+      "placeholder": false
+    },
+    {
+      "id": "b4-b-ruim",
+      "code": "B4-b",
+      "name": "Ruim",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-b-ruim.svg",
+      "color": "#4ade80",
+      "placeholder": false
+    },
+    {
+      "id": "b4-c-apenas-reuniao",
+      "code": "B4-c",
+      "name": "Apenas Reuniao",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-c-apenas-reuniao.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b4-c-bivaque-e-rapel",
+      "code": "B4-c",
+      "name": "Bivaque E Rapel",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-c-bivaque-e-rapel.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b4-c-bivaque",
+      "code": "B4-c",
+      "name": "Bivaque",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-c-bivaque.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b4-c-reuniao-e-rapel",
+      "code": "B4-c",
+      "name": "Reuniao E Rapel",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-c-reuniao-e-rapel.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b4-d-parada-em-arvore",
+      "code": "B4-d",
+      "name": "Parada Em Arvore",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-d-parada-em-arvore.svg",
+      "color": "#f472b6",
+      "placeholder": false
+    },
+    {
+      "id": "b4-e-parada-em-bloco-ou-bico-de-pedra",
+      "code": "B4-e",
+      "name": "Parada Em Bloco Ou Bico De Pedra",
+      "category": "reuniao",
+      "categoryLabel": "Paradas, rapeis e bivaques",
+      "file": "assets/symbols/b4-e-parada-em-bloco-ou-bico-de-pedra.svg",
+      "color": "#f472b6",
+      "placeholder": false
+    },
+    {
+      "id": "b5-a-aresta",
+      "code": "B5-a",
+      "name": "Aresta",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-a-aresta.svg",
+      "color": "#e2e8f0",
+      "placeholder": false
+    },
+    {
+      "id": "b5-b-diedro",
+      "code": "B5-b",
+      "name": "Diedro",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-b-diedro.svg",
+      "color": "#34d399",
+      "placeholder": false
+    },
+    {
+      "id": "b5-c-canaleta seca",
+      "code": "B5-c",
+      "name": "Canaleta Seca",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-c-canaleta seca.svg",
+      "color": "#f87171",
+      "placeholder": false
+    },
+    {
+      "id": "b5-d-pilar-ou-coluna",
+      "code": "B5-d",
+      "name": "Pilar ou coluna",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-d-pilar-ou-coluna.svg",
+      "color": "#60a5fa",
+      "placeholder": false
+    },
+    {
+      "id": "b5-e-rampão-ou-laje",
+      "code": "B5-e",
+      "name": "Rampão ou Laje",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-e-rampão-ou-laje.svg",
+      "color": "#fb923c",
+      "placeholder": false
+    },
+    {
+      "id": "b5-f-plato",
+      "code": "B5-f",
+      "name": "Platô",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-f-plato.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b5-f-teto",
+      "code": "B5-f",
+      "name": "Teto",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-f-teto.svg",
+      "color": "#fbbf24",
+      "placeholder": false
+    },
+    {
+      "id": "b5-g-trecho-negativo",
+      "code": "B5-g",
+      "name": "Trecho Negativo",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-g-trecho-negativo.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b5-h-trecho-vertical",
+      "code": "B5-h",
+      "name": "Trecho Vertical",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-h-trecho-vertical.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b5-j-cristaleira",
+      "code": "B5-j",
+      "name": "Cristaleira",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-j-cristaleira.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b5-k-chorreira",
+      "code": "B5-k",
+      "name": "Chorreira",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-k-chorreira.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b5-l-lance-em-barriga",
+      "code": "B5-l",
+      "name": "Lance em Barriga",
+      "category": "via",
+      "categoryLabel": "Referências naturais escaláveis",
+      "file": "assets/symbols/b5-l-lance-em-barriga.svg",
+      "color": "#a78bfa",
+      "placeholder": false
+    },
+    {
+      "id": "b6-a-fissura-tipo-fenda-frontal",
+      "code": "B6-a",
+      "name": "Fissura Tipo Fenda Frontal",
+      "category": "terreno",
+      "categoryLabel": "Fissuras e cavidades",
+      "file": "assets/symbols/b6-a-fissura-tipo-fenda-frontal.svg",
+      "color": "#94a3b8",
+      "placeholder": false
+    },
+    {
+      "id": "b6-b-fissura-tipo-chamine",
+      "code": "B6-b",
+      "name": "Fissura Tipo Chamine",
+      "category": "terreno",
+      "categoryLabel": "Fissuras e cavidades",
+      "file": "assets/symbols/b6-b-fissura-tipo-chamine.svg",
+      "color": "#78716c",
+      "placeholder": false
+    },
+    {
+      "id": "b6-c-fissura-tipo-chamine-entalada",
+      "code": "B6-c",
+      "name": "Fissura Tipo Chamine Entalada",
+      "category": "terreno",
+      "categoryLabel": "Fissuras e cavidades",
+      "file": "assets/symbols/b6-c-fissura-tipo-chamine-entalada.svg",
+      "color": "#6b7280",
+      "placeholder": false
+    },
+    {
+      "id": "b6-d-fissura-em-laca-borda-ou-aresta",
+      "code": "B6-d",
+      "name": "Fissura Em Laca Borda Ou Aresta",
+      "category": "terreno",
+      "categoryLabel": "Fissuras e cavidades",
+      "file": "assets/symbols/b6-d-fissura-em-laca-borda-ou-aresta.svg",
+      "color": "#94a3b8",
+      "placeholder": false
+    },
+    {
+      "id": "b6-e-caverna",
+      "code": "B6-e",
+      "name": "Caverna",
+      "category": "terreno",
+      "categoryLabel": "Fissuras e cavidades",
+      "file": "assets/symbols/b6-e-caverna.svg",
+      "color": "#78716c",
+      "placeholder": false
+    }
+  ]
+}

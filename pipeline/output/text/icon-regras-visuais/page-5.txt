@@ -1,0 +1,93 @@
+=== Página 5 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.15 
+B3. 
+Traçados e proteções 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+cód. 
+pictograma 
+significado 
+B3-a 
+rota da via ou da 
+variante 
+• traçado com linha tracejada; 
+• trajeto da via de escalada no estilo “livre”, podendo ser: 
+I. 
+via fixa: predominam as proteções do tipo fixa; 
+II. via mista: intercala proteções do tipo fixa, móvel ou natural; 
+III. via móvel: predominam as proteções do tipo móvel ou natural, 
+podendo existir paradas com proteções do tipo fixa; 
+B3-b 
+rota em artificial 
+• traçado com linha pontilhada; 
+• trajeto da via onde predomina a escalada no estilo artificial, 
+independentemente da técnica ou das proteções aplicadas, sendo que: 
+I. 
+vias fixas ou mistas com apenas alguns lances ou enfiadas em 
+artificial não são consideradas “vias artificiais”, e possuem 
+notação específica, conforme o descrito no Sistema Brasileiro 
+de Graduação; 
+II. convém indicar o tipo do artificial quando este estilo de escalada 
+for empregado; 
+III. convém indicar a posição dos pontos de progressão no traçado 
+do artificial; 
+B3-c 
+trecho de 
+caminhada 
+trajeto da rota em trilha, trepa-mato ou trepa-pedra; convém indicar a 
+exposição, a verticalidade, o risco de desprendimento de vegetação e/ou o 
+risco de queda de pedras; 
+B3-d 
+corda fixa ou cabo 
+de aço 
+trajeto da via de escalada realizada com o apoio de cabos de aço ou cordas 
+fixas; 
+B3-e 
+passagem em 
+pêndulo 
+indica toda a gama de manobras do tipo “pêndulo” executadas para acessar 
+setores ou trechos no trajeto da via; 
+B3-f 
+buraco de cliff 
+o buraco de cliff não se enquadra como proteção, porém, convém que seja 
+indicado no traçado quando se fizer necessário; 
+B3-g 
+proteção do tipo 
+FIXA 
+engloba os grampos do tipo “P”, chapeletas de todos os tipos fixadas com 
+qualquer classe de chumbadores mecânicos à rocha incluindo aqueles 
+aplicados com fixadores químicos, e, quaisquer proteções do tipo “móvel” 
+definitivamente entaladas e não recuperáveis, como por exemplo um piton; 
+B3-h 
+proteção do tipo 
+MÓVEL 
+engloba toda a classe de entaladores aplicados em fissuras e lacas, sejam 
+eles proteções do tipo ativa (friends e camalots, por exemplo) ou do tipo 
+passiva (nuts, por exemplo); 
+B3-i 
+proteção do tipo 
+PITON 
+convém indicar apenas quando se tratar de proteção regular ao longo da 
+via de escalada; 
+B3-j 
+proteção em fita 
+• fitas, cabos ou cordas instalados em blocos, bicos de pedra, buracos, 
+pilares ou árvores; 
+• indicar, com detalhes, o ponto e a forma da colocação da fita; 
+ 
+ 

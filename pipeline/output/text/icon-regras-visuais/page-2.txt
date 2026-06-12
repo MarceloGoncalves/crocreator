@@ -1,0 +1,65 @@
+=== Página 2 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.12 
+Parte B 
+Simbologia e informação visual 
+A lógica da simbologia, da tipografia e da informação visual sugeridas neste Guia se 
+baseia nas melhores práticas adotadas internacionalmente pelas associações de montanha e 
+ainda naquela tradicionalmente utilizada no Brasil, e, pretende ser intuitiva e inteligível; 
+identificável e destacada; simples e de fácil esboço; permitindo assim ao autor do croqui 
+reproduzi-la manualmente sem dificuldades, reduzindo ao mínimo as diferenças entre um croqui 
+editado num software e outro feito à mão. 
+A simbologia básica sugerida nos capítulos que se seguem encontra-se separada em 
+grupos de pictogramas dotados de significado objetivo e exclusivo, organizados e estruturados 
+da seguinte forma: 
+Tabela 1 – classificação da simbologia adotada
+Grupo Família simbológica Finalidade 
+B1 
+Sinais de Informação padroniza o formato de divulgação de informações relevantes ou de advertências 
+sobre quaisquer perigos existentes ao longo da via de escalada. 
+B2 
+Referências naturais 
+não escaláveis 
+são os pictogramas destinados a auxiliar o escalador na localização de pontos de 
+importância ou no seu posicionamento geográfico dentro da via de escalada. 
+B3 
+Traçados e proteções padroniza a representação do traçado (forma ou rotas de progressão) e dos tipos de 
+proteção (fixas, móveis e naturais) que possam ocorrer ao longo da via de escalada. 
+B4 
+Paradas, rapeis e 
+bivaques 
+padroniza a convenção de símbolos que indicam a extensão das enfiadas, o tipo, o 
+conforto, a qualidade e a posição das paradas, das reuniões, dos rapeis e bivaques 
+na via de escalada. 
+B5 
+Referências naturais 
+escaláveis 
+padroniza as diversas representações gráficas da morfologia básica da rocha na via 
+de escalada que possibilitam ao escalador antever a possível técnica a ser aplicada. 
+B6 
+Fissuras e cavidades diz respeito aos diversos tipos de fissuras e cavidades presentes na via de escalada 
+e que exijam do escalador a aplicação de técnicas, equipamentos ou proteções 
+peculiares a determinados estilos de escalada. 
+ 
+Quanto à adoção da simbologia sugerida, convém que:
+a. seja inserida no croqui apenas a simbologia necessária à orientação dos 
+escaladores evitando-se os excessos, e, que se façam constar apenas as 
+referências naturais de claro destaque para que não se acentuem as dúvidas 
+durante a escalada; 
+b. seja inserida uma legenda no rodapé do croqui ou onde houver o melhor espaço, 
+que explore o significado da simbologia aplicada. 
+Por fim, os pictogramas apresentados neste Guia não guardam proporções exatas entre 
+si. Cabe ao autor do croqui prezar pelo bom senso ao aplicá-los. Exemplos e sugestões das 
+proporções constarão dentro de cada grupo estudado. Ainda sim, sugere-se quanto a dimensão 
+da informação gráfica apresentada no croqui: 
+I. que o desenho do croqui seja produzido em escala, e que, se possível, esta escala 
+conste no croqui para que as proporções e distâncias sejam obedecidas e o mais 
+fiéis possível à realidade; 
+II. que, dentro do possível, o desenho do croqui seja enquadrado em apenas uma 
+página, preferencialmente no formato A4; 
+III. que se empregue a simbologia e a tipografia num tamanho que permita a qualquer 
+um identificá-las ou lê-las facilmente. 
+[.] 

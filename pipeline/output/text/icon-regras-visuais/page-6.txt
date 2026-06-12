@@ -1,0 +1,51 @@
+=== Página 6 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.16 
+.../cont./B3.Traçados e proteções 
+B3.1. Disposições a respeito do traçado 
+Sugere-se indicar ao longo do traçado de cada enfiada a graduação de lances chave em 
+algarismos romanos, ou, em se tratando de vias em artificial, a graduação correspondente do 
+trecho. 
+A respeito do traçado das variantes da via principal, sugere-se que: 
+a. se faça constar no croqui da via principal o traçado completo das variantes que 
+possuam extensão de até uma enfiada. Neste caso, o traçado da via principal deve 
+ser indicado com a sigla “V.N.” – via normal; 
+b. o traçado das variantes com extensão maior do que uma enfiada deve constar num 
+croqui próprio a parte do croqui da via principal, sendo desejável neste caso que: 
+I. no traçado da via principal exista a indicação do ponto de saída para cada 
+variante; 
+II. no croqui da variante se faça constar qual é a via principal e a descrição de 
+seu ponto de saída e de chegada; 
+c. as variantes devem ser nomeadas individualmente e ter a indicação do seu grau geral. 
+A adoção ou não do prefixo de “variante” junto ao nome da via fica a cargo do 
+conquistador; 
+d. as pontes (transições) entre duas vias não serão consideradas variantes, mesmo 
+assim, é conveniente que seja indicado no croqui o grampo e nome da via de destino. 
+ 
+B3.2. Disposições a respeito das proteções 
+a. caso o autor do croqui julgue necessário e importante para efeito de orientação ao 
+escalador na via, poderá diferenciar a representação das proteções fixas no traçado 
+do croqui, utilizando símbolos distintos para grampos (por exemplo, uma letra “P”), 
+chapeletas ou outros dispositivos utilizados, sendo mandatório, porém, que indique a 
+convenção utilizada na legenda do croqui; 
+b. as proteções devem ser indicadas com o pictograma sobreposto à linha do traçado; 
+c. proteções que não façam parte do traçado da via, mas que estejam presentes na sua 
+proximidade, deverão ser assinaladas no croqui para alertar ao escalador; 
+d. as proteções do tipo “móvel” devem ser indicadas da seguinte forma: 
+I. via mista: fica a cargo do autor do croqui indicar ou não a posição da aplicação 
+das peças móveis de acordo com a complexidade ou a especificidade da via; 
+II. via móvel: a quantidade, o tipo das peças, peças repetidas e o seu número de 
+referência devem constar apenas na listagem de materiais; 
+III. convém indicar a posição, o tipo de peça e o seu número de referência em 
+situações ou locais específicos (ex: uma via onde o croqui sugere o uso de 
+poucas peças, de colocações específicas, de peça incomum ou única no jogo 
+sugerido); 
+e. no caso da aplicação de peças do tipo ATIVA recomenda-se utilizar, como uma 
+referência padrão para o tamanho das peças, os Camalots da marca Black Diamond. 
+O apêndice 1A: tabela de comparação de peças móveis disponibiliza uma lista 
+comparativa de tamanhos entre as marcas mais usuais. 
+ 
+ 

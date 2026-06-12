@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre o Crocreator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-panel: #1e293b;
+      --text: #f8fafc;
+      --text-light: #94a3b8;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--bg-panel);
+      padding: 32px 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 900;
+      font-size: 2.8rem;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      color: var(--text-light);
+      margin: 8px 0 0 0;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 16px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .feature-card {
+      background: var(--bg-panel);
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.05);
+      transition: transform 0.2s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .feature-card h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      color: var(--text-light);
+      margin-bottom: 0;
+    }
+
+    .credits {
+      background: rgba(59, 130, 246, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 24px;
+      border-radius: 0 12px 12px 0;
+      margin-top: 48px;
+    }
+
+    .credits h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.4rem;
+    }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.2s;
+      margin-top: 24px;
+    }
+
+    .btn-back:hover {
+      background: var(--primary-hover);
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🧗 Crocreator</h1>
+    <p>A ferramenta moderna para documentação de vias de escalada.</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Sobre o Projeto</h2>
+      <p>O <strong>Crocreator</strong> nasceu da necessidade de modernizar e padronizar a documentação visual de vias de escalada no Brasil. Trata-se de uma ferramenta web robusta, desenhada no estilo CAD, que permite a montanhistas, conquistadores e escaladores desenhar croquis técnicos com altíssima precisão de forma muito intuitiva.</p>
+      <p>Com foco extremo na experiência do usuário, o editor fornece não apenas uma biblioteca visual, mas também lógicas embutidas de desenho, importação de imagens reais de montanhas e suporte à exportação em alta fidelidade.</p>
+    </section>
+
+    <section>
+      <h2>Principais Funcionalidades</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>📚 Catálogo de Símbolos</h3>
+          <p>Dezenas de símbolos padronizados e organizados por categoria (Fissuras, Agarras, Proteções, Paradas), prontos para arrastar e soltar (drag-and-drop) diretamente no seu desenho.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🖌️ Traçados Dinâmicos</h3>
+          <p>Ferramenta de desenho inteligente que se adapta ao símbolo selecionado. Ele entende o contexto e renderiza automaticamente linhas tracejadas, cordas fixas ou fissuras em laca com segmentos perpendiculares.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📏 Escala e Grid Flexível</h3>
+          <p>O sistema recalcula a malha de fundo de acordo com a modalidade (Boulder, Esportiva, Tradicional e Big Wall), garantindo que as exportações gerem escalas milimétricas no eixo Y.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📸 Base Fotográfica</h3>
+          <p>Suporte para carregar imagens das paredes de rocha com transparência de 50%. A foto fica travada e serve de referência perfeita para você desenhar as vias guiado pela realidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="credits">
+      <h3>Inspiração e Base Acadêmica</h3>
+      <p>O <strong>Crocreator</strong> não seria possível sem a extensa pesquisa e o minucioso trabalho acadêmico de <strong>Denis</strong> em parceria com a <strong>FEMEMG</strong> (Federação de Montanhismo e Escalada de Minas Gerais).</p>
+      <p>Toda a iconografia embutida no sistema — englobando o desenho visual das agarras, proteções, vegetações e perfis de via — segue rigorosamente os padrões de sinalética propostos pelo estudo do Denis. O objetivo do Crocreator é honrar esse trabalho, oferecendo um software gratuito que ajude a unificar a linguagem visual do montanhismo nacional e tornar a leitura de croquis universal e segura.</p>
+    </section>
+
+    <a href="/index.html" class="btn-back">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Ir para o Editor
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2026 Crocreator. Construído com carinho para a comunidade de escalada.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+=== Página 10 ===
+
+Guia para a elaboração de croquis de escalada, 1.ª edição, 11/2022 
+Federação de Montanhismo e Escalada do Estado de Minas Gerais – FEMEMG 
+ 
+pág.20 
+.../cont./B4. Paradas, rapeis e bivaques 
+B4.1. Disposições a respeito das paradas, do rapel e dos bivaques 
+a. a convenção de conforto da parada (ver B4-b) é opcional, sendo conveniente a sua 
+adoção apenas quando se tratar de croquis de vias longas ou nos casos em que o 
+autor do croqui julgar necessário; 
+b. quando houver a indicação de parada opcional no croqui, sugere-se descrever o 
+motivo desta parada existir, para fins de orientação ao escalador; 
+c. no caso de bivaque, convém indicar o número aproximado de pessoas que comporta; 
+d. a respeito do retorno, convém indicar no croqui: 
+I. se o rapel se fizer por uma parada localizada fora do traçado da via ou se 
+houver uma parada exclusiva para o rapel. Neste caso, informar a extensão 
+deste rapel à parte da indicação da extensão da enfiada, sinalizada com uma 
+letra “R” (exemplo “R:35m”). Em caso de dúvidas, consultar o exe-8; 
+II. se o rapel se fizer por outra via; 
+III. se há a necessidade de deixar a via encordada para conseguir acessar a 
+parada durante o rapel (em rapéis negativos ou em diagonal, por exemplo); 
+IV. se a descida se fizer por trilha ou por outros meios, e neste caso, indicar o 
+meio (como no morro da Urca/RJ onde se pode descer de bondinho); 
+ 
+B4.2. Exemplos de aplicação 
+[a] uma longa enfiada em artificial de cliffs por baixo de um teto entre a P13 e a P14, observa-se 
+uma parada em móvel na P13, e a presença de 3 proteções fixas ao longo do trecho em artificial; 
+[b] saindo do teto segue-se um trecho fácil de III grau, com 
+proteções fixas; 
+[c] a P15 está num platô com parada em árvore (parada 
+natural), onde existe a possibilidade de bivaque no platô; 
+[d] a partir da P15 segue-se por um trecho de IV grau com 
+proteções fixas, acessando uma grande fenda em laca a partir 
+da P16, toda protegida em móvel e graduada em VIIb; 
+[e] na P17 a parada é executada em móvel, e dá acesso a uma 
+travessia com proteções fixas até a P18; 
+[f] nota-se um grande desvio na rota entre a P15 e P17, o que 
+dificulta o rapel no retorno, por este motivo o conquistador 
+“bateu” uma parada em grampo único possibilitando descer em 
+linha reta da P18 até a P15. Na P14, P15 e na P18 é possível 
+perceber a notação específica da extensão do rapel (R:25m). 
+exe-8: via longa mista com diversas peculiaridades técnicas. 
+ 
