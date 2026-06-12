@@ -70,7 +70,7 @@ export class TextTool {
       // Otherwise, create new text
       const text = await openTextModal('')
       if (text && text.trim() !== '') {
-        const pointText = new paper.PointText({
+        new paper.PointText({
           point: event.point,
           content: text,
           fillColor: '#1a1a1a', // dark text

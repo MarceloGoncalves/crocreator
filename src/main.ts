@@ -177,7 +177,7 @@ tools.onToolChange = (name) => {
 }
 
 // — View & Altitude Ruler —
-editor.onViewChange = (zoom, cx, cy) => {
+editor.onViewChange = (zoom) => {
   const wrap = document.getElementById('canvas-wrap')!
   
   const scaledGrid = 50 * zoom

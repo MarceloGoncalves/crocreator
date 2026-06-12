@@ -50,7 +50,7 @@ export class SelectTool {
       this.wasDragged = false
       const hit = paper.project.hitTest(event.point, {
         fill: true, stroke: true, segments: true, tolerance: 8,
-        match: (res) => {
+        match: (res: paper.HitResult) => {
           let i: paper.Item | null = res.item
           while (i) {
             if (i.data?.locked) return false

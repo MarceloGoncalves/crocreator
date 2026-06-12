@@ -75,7 +75,7 @@ export class Editor {
     // Draw horizontal grid lines and altitude text
     for (let y = firstY; y <= bounds.bottom; y += 50) {
       const line = new paper.Path.Line(new paper.Point(bounds.left, y), new paper.Point(bounds.right, y))
-      line.strokeColor = new paper.Color('#000000', 0.02) // Opacidade bem menor
+      line.strokeColor = new paper.Color(0, 0, 0, 0.02) // Opacidade bem menor
       line.dashArray = [4, 8] // Linha tracejada para ficar ainda mais leve
       group.addChild(line)
 
