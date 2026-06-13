@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "paper": "^0.12.18",
-    "jspdf": "^2.5.1"
+    "jspdf": "^2.5.1",
+    "paper": "^0.12.18"
   }
 }
