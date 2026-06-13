@@ -73,7 +73,7 @@ document.getElementById('image-bw-toggle')!.addEventListener('change', (e) => {
         if (ctx) {
           ctx.filter = 'grayscale(100%)'
           ctx.drawImage(img, 0, 0)
-          raster.source = canvas
+          raster.source = canvas.toDataURL('image/png')
         }
       }
     } else {
