@@ -86,8 +86,13 @@ document.getElementById('file-bg')!.addEventListener('change', (e: Event) => {
           raster.position = paper.view.center
           raster.opacity = 0.5
           raster.sendToBack()
-          raster.data = { locked: true } // Auto-lock background by default
+          // raster.data = { locked: true } // Removed auto-lock to allow manipulation
           history.snapshot()
+          
+          // Switch to select tool and automatically select the image
+          document.getElementById('btn-select')!.click()
+          tools.select.selectItem(raster)
+          updateUI()
           target.value = '' // Reset input so same file can be chosen again
         }
       }

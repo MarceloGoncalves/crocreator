@@ -160,6 +160,14 @@ export class SelectTool {
     this.onChanged()
   }
 
+  selectItem(item: paper.Item) {
+    if (item.data?.locked) return
+    this.clearSelection()
+    item.selected = true
+    this.selectedItems.add(item)
+    this.onChanged()
+  }
+
   async deleteSelected(promptUser: boolean = false) {
     if (this.selectedItems.size === 0) return
     if (promptUser) {
