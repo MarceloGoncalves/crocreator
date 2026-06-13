@@ -35,6 +35,54 @@ function highlightTool(name: string | null) {
   if (name) document.getElementById(`btn-${name}`)?.classList.add('active')
 }
 
+document.getElementById('scale-select')?.addEventListener('change', () => {
+  renderRuler(paper.view.zoom)
+})
+
+document.getElementById('image-opacity-slider')!.addEventListener('input', (e) => {
+  const selected = tools.select.selectedItemsList
+  if (selected.length === 1 && selected[0] instanceof paper.Raster) {
+    const raster = selected[0] as paper.Raster
+    raster.opacity = parseInt((e.target as HTMLInputElement).value) / 100
+  }
+})
+
+document.getElementById('image-opacity-slider')!.addEventListener('change', () => {
+  history.snapshot()
+})
+
+document.getElementById('image-bw-toggle')!.addEventListener('change', (e) => {
+  const isBW = (e.target as HTMLInputElement).checked
+  const selected = tools.select.selectedItemsList
+  if (selected.length === 1 && selected[0] instanceof paper.Raster) {
+    const raster = selected[0] as paper.Raster
+    raster.data = raster.data || {}
+    raster.data.isBW = isBW
+    
+    if (!raster.data.originalSource) {
+      raster.data.originalSource = raster.source
+    }
+    
+    if (isBW) {
+      const img = raster.image
+      if (img) {
+        const canvas = document.createElement('canvas')
+        canvas.width = img.width
+        canvas.height = img.height
+        const ctx = canvas.getContext('2d')
+        if (ctx) {
+          ctx.filter = 'grayscale(100%)'
+          ctx.drawImage(img, 0, 0)
+          raster.source = canvas
+        }
+      }
+    } else {
+      raster.source = raster.data.originalSource
+    }
+    history.snapshot()
+  }
+})
+
 document.getElementById('btn-select')!.addEventListener('click', () => {
   tools.setTool('select')
   highlightTool('select')
@@ -174,6 +222,22 @@ function updateUI() {
     // Unlock icon
     lockBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
     lockBtn.style.color = '#eab308' // yellowish to indicate unlock mode
+  }
+
+  const imgProps = document.getElementById('image-properties')!
+  const bwToggle = document.getElementById('image-bw-toggle') as HTMLInputElement
+  const opacitySlider = document.getElementById('image-opacity-slider') as HTMLInputElement
+
+  const selected = tools.select.selectedItemsList
+  if (selected.length === 1 && selected[0] instanceof paper.Raster) {
+    imgProps.style.display = 'flex'
+    const raster = selected[0] as paper.Raster
+    if (document.activeElement !== opacitySlider) {
+      opacitySlider.value = Math.round(raster.opacity * 100).toString()
+    }
+    bwToggle.checked = !!raster.data?.isBW
+  } else {
+    imgProps.style.display = 'none'
   }
 }
 

@@ -242,4 +242,8 @@ export class SelectTool {
   deactivate() {
     this.clearSelection()
   }
+
+  get selectedItemsList() {
+    return Array.from(this.selectedItems)
+  }
 }
