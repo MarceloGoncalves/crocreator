@@ -25,11 +25,12 @@ export class SymbolTool {
     if (!def) return
 
     const item = new paper.SymbolItem(def, point)
-    
     // Normaliza o tamanho para que o maior lado tenha exatamente 40px
+    // Exceção: O símbolo da proteção Fixa (b3-g) deve ser menor que os demais.
+    const targetSize = sym.id === 'b3-g' ? 22 : 40
     const maxDim = Math.max(item.bounds.width, item.bounds.height)
     if (maxDim > 0) {
-      item.scale(40 / maxDim)
+      item.scale(targetSize / maxDim)
     }
 
     this.history.snapshot()

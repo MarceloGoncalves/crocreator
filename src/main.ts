@@ -186,9 +186,19 @@ editor.onViewChange = (zoom) => {
   const offsetX = -paper.view.bounds.x * zoom
   const offsetY = -paper.view.bounds.y * zoom
   wrap.style.backgroundPosition = `${offsetX}px ${offsetY}px`
-  
   renderRuler(zoom)
 }
+
+document.getElementById('toggle-ruler')?.addEventListener('change', (e) => {
+  const isChecked = (e.target as HTMLInputElement).checked
+  document.getElementById('altitude-ruler')!.style.display = isChecked ? 'block' : 'none'
+  const wrap = document.getElementById('canvas-wrap')!
+  if (!isChecked) {
+    wrap.style.backgroundImage = 'none'
+  } else {
+    wrap.style.backgroundImage = '' // returns to css default
+  }
+})
 
 function renderRuler(zoom = 1) {
   const ruler = document.getElementById('altitude-ruler')!

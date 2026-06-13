@@ -93,14 +93,19 @@
             <div id="status-tool">Ferramenta: Selecionar</div>
             <div id="status-symbol"></div>
           </div>
-          <div class="scale-settings">
-            Modo: 
-            <select id="scale-select">
-              <option value="1">Boulder (1m / grid)</option>
-              <option value="2" selected>Esportiva (2m / grid)</option>
-              <option value="10">Tradicional (10m / grid)</option>
-              <option value="20">Big Wall (20m / grid)</option>
-            </select>
+          <div class="scale-settings" style="display: flex; gap: 16px; align-items: center;">
+            <label style="display: flex; align-items: center; gap: 4px; cursor: pointer;">
+              <input type="checkbox" id="toggle-ruler" checked> Régua / Grade
+            </label>
+            <div>
+              Modo: 
+              <select id="scale-select">
+                <option value="1">Boulder (1m / grid)</option>
+                <option value="2" selected>Esportiva (2m / grid)</option>
+                <option value="10">Tradicional (10m / grid)</option>
+                <option value="20">Big Wall (20m / grid)</option>
+              </select>
+            </div>
           </div>
         </footer>
 

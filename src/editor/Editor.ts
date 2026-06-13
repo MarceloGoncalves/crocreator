@@ -65,6 +65,9 @@ export class Editor {
 
   private createExportGrid(): paper.Group {
     const group = new paper.Group()
+    const toggleRuler = document.getElementById('toggle-ruler') as HTMLInputElement
+    if (toggleRuler && !toggleRuler.checked) return group
+
     const bounds = paper.view.bounds
 
     const scaleSelect = document.getElementById('scale-select') as HTMLSelectElement
