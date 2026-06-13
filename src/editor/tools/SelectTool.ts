@@ -48,23 +48,45 @@ export class SelectTool {
 
     this.tool.onMouseDown = (event: paper.ToolEvent) => {
       this.wasDragged = false
-      const hit = paper.project.hitTest(event.point, {
-        fill: true, stroke: true, segments: true, tolerance: 8,
-        match: (res: paper.HitResult) => {
-          let i: paper.Item | null = res.item
-          while (i) {
-            if (i.data?.locked) return false
-            i = i.parent
-          }
-          return true
-        }
-      })
+      let hitItem: paper.Item | null = null
 
-      if (hit?.item) {
-        let item: paper.Item = hit.item
-        while (item.parent && !(item.parent instanceof paper.Layer)) {
-          item = item.parent
+      // 1. Prioritize clicking inside the bounding box of a SymbolItem
+      if (paper.project.activeLayer) {
+        for (let i = paper.project.activeLayer.children.length - 1; i >= 0; i--) {
+          const child = paper.project.activeLayer.children[i]
+          if (child instanceof paper.SymbolItem && !child.data?.locked) {
+            if (child.bounds.expand(4).contains(event.point)) {
+              hitItem = child
+              break
+            }
+          }
         }
+      }
+
+      // 2. Fallback to precise hitTest for paths, texts, and rasters
+      if (!hitItem) {
+        const hit = paper.project.hitTest(event.point, {
+          fill: true, stroke: true, segments: true, tolerance: 8,
+          match: (res: paper.HitResult) => {
+            let i: paper.Item | null = res.item
+            while (i) {
+              if (i.data?.locked) return false
+              i = i.parent
+            }
+            return true
+          }
+        })
+
+        if (hit?.item) {
+          hitItem = hit.item
+          while (hitItem.parent && !(hitItem.parent instanceof paper.Layer)) {
+            hitItem = hitItem.parent
+          }
+        }
+      }
+
+      if (hitItem) {
+        let item: paper.Item = hitItem
         
         if (!event.modifiers.shift && !this.selectedItems.has(item)) {
           this.clearSelection()
