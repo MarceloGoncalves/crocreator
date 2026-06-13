@@ -60,6 +60,10 @@ document.getElementById('btn-text')!.addEventListener('click', () => {
   document.getElementById('status-symbol')!.textContent = ''
 })
 
+document.getElementById('btn-shortcut-protecao')!.addEventListener('click', () => {
+  palette.setCategory('protecao')
+})
+
 document.getElementById('btn-undo')!.addEventListener('click', () => {
   history.undo()
   updateUI()

@@ -31,7 +31,22 @@ export class SymbolPalette {
     for (const s of this.catalog.symbols) {
       if (!seen.has(s.category)) seen.set(s.category, s.categoryLabel)
     }
-    return [{ id: 'all', label: 'Todos' }, ...Array.from(seen, ([id, label]) => ({ id, label }))]
+    const priority = ['all', 'protecao', 'reuniao']
+    const cats = [{ id: 'all', label: 'Todos' }, ...Array.from(seen, ([id, label]) => ({ id, label }))]
+    cats.sort((a, b) => {
+      const idxA = priority.indexOf(a.id)
+      const idxB = priority.indexOf(b.id)
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB
+      if (idxA !== -1) return -1
+      if (idxB !== -1) return 1
+      return a.label.localeCompare(b.label)
+    })
+    return cats
+  }
+
+  setCategory(catId: string) {
+    this.activeCategory = catId
+    this.render()
   }
 
   private render() {
