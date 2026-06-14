@@ -54,7 +54,7 @@ export class SelectTool {
       if (paper.project.activeLayer) {
         for (let i = paper.project.activeLayer.children.length - 1; i >= 0; i--) {
           const child = paper.project.activeLayer.children[i]
-          if (child instanceof paper.SymbolItem && !child.data?.locked) {
+          if (child instanceof paper.SymbolItem) {
             if (child.bounds.expand(4).contains(event.point)) {
               hitItem = child
               break
@@ -67,12 +67,7 @@ export class SelectTool {
       if (!hitItem) {
         const hit = paper.project.hitTest(event.point, {
           fill: true, stroke: true, segments: true, tolerance: 8,
-          match: (res: paper.HitResult) => {
-            let i: paper.Item | null = res.item
-            while (i) {
-              if (i.data?.locked) return false
-              i = i.parent
-            }
+          match: () => {
             return true
           }
         })
@@ -110,10 +105,16 @@ export class SelectTool {
 
     this.tool.onMouseDrag = (event: paper.ToolEvent) => {
       if (this.selectedItems.size > 0 && this.dragStart) {
+        let draggedAnything = false
         this.selectedItems.forEach(item => {
-          item.position = item.position.add(event.delta)
+          if (!item.data?.locked) {
+            item.position = item.position.add(event.delta)
+            draggedAnything = true
+          }
         })
-        this.wasDragged = true
+        if (draggedAnything) {
+          this.wasDragged = true
+        }
       } else if (this.selectionStart) {
         if (this.selectionRect) {
           this.selectionRect.remove()
@@ -129,7 +130,7 @@ export class SelectTool {
       if (this.selectionRect) {
         const bounds = this.selectionRect.bounds
         paper.project.activeLayer.children.forEach(item => {
-          if (item !== this.selectionRect && !item.data?.locked && item.bounds.intersects(bounds)) {
+          if (item !== this.selectionRect && item.bounds.intersects(bounds)) {
             item.selected = true
             this.selectedItems.add(item)
           }
@@ -175,15 +176,20 @@ export class SelectTool {
 
   nudgeSelected(dx: number, dy: number) {
     if (this.selectedItems.size === 0) return
+    let nudgedAnything = false
     this.selectedItems.forEach(item => {
-      item.position = item.position.add(new paper.Point(dx, dy))
+      if (!item.data?.locked) {
+        item.position = item.position.add(new paper.Point(dx, dy))
+        nudgedAnything = true
+      }
     })
-    this.history.snapshot()
-    this.onChanged()
+    if (nudgedAnything) {
+      this.history.snapshot()
+      this.onChanged()
+    }
   }
 
   selectItem(item: paper.Item) {
-    if (item.data?.locked) return
     this.clearSelection()
     item.selected = true
     this.selectedItems.add(item)
@@ -191,29 +197,53 @@ export class SelectTool {
   }
 
   async deleteSelected(promptUser: boolean = false) {
-    if (this.selectedItems.size === 0) return
+    let deletableCount = 0
+    this.selectedItems.forEach(item => {
+      if (!item.data?.locked) deletableCount++
+    })
+    
+    if (deletableCount === 0) return
+
     if (promptUser) {
-      const confirmed = await openDeleteModal(this.selectedItems.size)
+      const confirmed = await openDeleteModal(deletableCount)
       if (!confirmed) return
     }
-    this.selectedItems.forEach(item => item.remove())
-    this.selectedItems.clear()
+    this.selectedItems.forEach(item => {
+      if (!item.data?.locked) {
+        item.remove()
+        this.selectedItems.delete(item)
+      }
+    })
     this.history.snapshot()
     this.onChanged()
   }
 
   scaleSelected(factor: number) {
-    if (this.selectedItems.size === 0) return
-    this.selectedItems.forEach(item => item.scale(factor))
-    this.history.snapshot()
-    this.onChanged()
+    let scaledAnything = false
+    this.selectedItems.forEach(item => {
+      if (!item.data?.locked) {
+        item.scale(factor)
+        scaledAnything = true
+      }
+    })
+    if (scaledAnything) {
+      this.history.snapshot()
+      this.onChanged()
+    }
   }
 
   rotateSelected(angle: number) {
-    if (this.selectedItems.size === 0) return
-    this.selectedItems.forEach(item => item.rotate(angle))
-    this.history.snapshot()
-    this.onChanged()
+    let rotatedAnything = false
+    this.selectedItems.forEach(item => {
+      if (!item.data?.locked) {
+        item.rotate(angle)
+        rotatedAnything = true
+      }
+    })
+    if (rotatedAnything) {
+      this.history.snapshot()
+      this.onChanged()
+    }
   }
 
   get selectionCount() {
@@ -227,17 +257,25 @@ export class SelectTool {
 
   toggleLock() {
     if (this.selectedItems.size > 0) {
-      // Lock selected items
+      let allLocked = true
       this.selectedItems.forEach(item => {
-        item.data = item.data || {}
-        item.data.locked = true
-        item.selected = false // visually deselect it
+        if (!item.data?.locked) allLocked = false
       })
-      this.selectedItems.clear()
+
+      if (allLocked) {
+        this.selectedItems.forEach(item => {
+          item.data.locked = false
+        })
+      } else {
+        this.selectedItems.forEach(item => {
+          item.data = item.data || {}
+          item.data.locked = true
+        })
+      }
       this.history.snapshot()
       this.onChanged()
     } else {
-      // Unlock all items
+      // Unlock all items as fallback
       let unlockedSomething = false
       if (paper.project && paper.project.activeLayer) {
         paper.project.activeLayer.children.forEach(item => {

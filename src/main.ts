@@ -212,9 +212,20 @@ function updateUI() {
 
   const lockBtn = document.getElementById('btn-lock')!
   if (tools.select.selectionCount > 0) {
-    lockBtn.title = 'Travar Seleção (L)'
-    lockBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>'
-    lockBtn.style.color = '' // default
+    let allLocked = true
+    tools.select.selectedItemsList.forEach(item => {
+      if (!item.data?.locked) allLocked = false
+    })
+
+    if (allLocked) {
+      lockBtn.title = 'Destravar Item (L)'
+      lockBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
+      lockBtn.style.color = '#eab308' // indicate it's locked and clicking will unlock
+    } else {
+      lockBtn.title = 'Travar Item (L)'
+      lockBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>'
+      lockBtn.style.color = '' // default
+    }
   } else {
     lockBtn.title = 'Destravar Tudo (L)'
     // Unlock icon
