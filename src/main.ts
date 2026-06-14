@@ -35,9 +35,7 @@ function highlightTool(name: string | null) {
   if (name) document.getElementById(`btn-${name}`)?.classList.add('active')
 }
 
-document.getElementById('scale-select')?.addEventListener('change', () => {
-  renderRuler(paper.view.zoom)
-})
+// Removed scale-select listener
 
 document.getElementById('image-opacity-slider')!.addEventListener('input', (e) => {
   const selected = tools.select.selectedItemsList
@@ -285,9 +283,8 @@ function renderRuler(zoom = 1) {
   // Find the first multiple of 50 that is >= startY
   const firstTick = Math.ceil(startY / 50) * 50
   
-  // Pegamos a escala selecionada pelo usuário
-  const scaleSelect = document.getElementById('scale-select') as HTMLSelectElement
-  const metersPerGrid = scaleSelect ? parseInt(scaleSelect.value) : 10
+  // A escala agora é fixa em 2m por grade (padrão de escalada esportiva)
+  const metersPerGrid = 2
   
   for (let y = firstTick; y <= endY; y += 50) {
     const screenY = (y - startY) * zoom
