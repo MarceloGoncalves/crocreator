@@ -72,6 +72,7 @@
           <button id="btn-lock" class="icon-btn" title="Travar Seleção / Destravar Tudo (L)">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
           </button>
+          <div class="divider" style="height: 24px;"></div>
           <button id="btn-delete" class="icon-btn" title="Deletar Selecionados (Del)">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
           </button>
@@ -79,6 +80,10 @@
         <div class="toolbar-right">
           <button id="btn-export-svg" class="action-btn">↓ SVG</button>
           <button id="btn-export-pdf" class="action-btn primary">↓ PDF</button>
+          <div class="divider" style="height: 24px;"></div>
+          <button id="btn-help" class="icon-btn" title="Ajuda / Tutorial" style="color: #a78bfa;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </button>
         </div>
       </header>
 
@@ -140,6 +145,175 @@
       </div>
 
     </div>
+
+    <!-- WELCOME / HELP MODAL -->
+    <div id="welcome-modal-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); backdrop-filter:blur(6px); z-index:2000; align-items:center; justify-content:center;">
+      <div style="background:#1e293b; border:1px solid rgba(255,255,255,0.08); border-radius:20px; width:min(600px,94vw); max-height:90vh; overflow:hidden; display:flex; flex-direction:column; animation:wm-in 0.3s ease;">
+        <style>
+          @keyframes wm-in { from { opacity:0; transform:scale(0.94) translateY(20px); } to { opacity:1; transform:scale(1) translateY(0); } }
+          .wm-step { display:none; padding:36px 40px 28px; }
+          .wm-step.active { display:block; }
+          .wm-step-icon { font-size:3rem; margin-bottom:12px; }
+          .wm-step h2 { margin:0 0 8px; font-size:1.5rem; color:#f8fafc; }
+          .wm-step p { color:#94a3b8; font-size:0.97rem; line-height:1.7; margin:0 0 16px; }
+          .wm-keys { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+          .wm-key { background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:6px; padding:4px 10px; font-size:0.82rem; color:#cbd5e1; font-family:monospace; }
+          .wm-key b { color:#f8fafc; }
+          .wm-key span { color:#64748b; margin:0 2px; }
+          .wm-img-row { display:flex; gap:12px; margin-top:16px; flex-wrap:wrap; }
+          .wm-sym-chip { background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.2); border-radius:10px; padding:8px 14px; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:#cbd5e1; }
+          .wm-sym-chip img { width:28px; height:28px; filter:invert(1); }
+          .wm-footer { display:flex; align-items:center; justify-content:space-between; padding:16px 40px 28px; border-top:1px solid rgba(255,255,255,0.06); }
+          .wm-dots { display:flex; gap:6px; }
+          .wm-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,0.15); transition:background 0.2s; cursor:pointer; }
+          .wm-dot.active { background:#3b82f6; }
+          .wm-btn { padding:9px 22px; border-radius:9px; border:none; cursor:pointer; font-size:0.93rem; font-weight:600; font-family:inherit; transition:all 0.2s; }
+          .wm-btn-skip { background:transparent; color:#64748b; }
+          .wm-btn-skip:hover { color:#94a3b8; }
+          .wm-btn-next { background:#3b82f6; color:white; }
+          .wm-btn-next:hover { background:#2563eb; }
+        </style>
+
+        <!-- Step 1 -->
+        <div class="wm-step active" data-step="0">
+          <div class="wm-step-icon">🧗</div>
+          <h2>Bem-vindo ao Crocreator!</h2>
+          <p>O editor de croquis de escalada mais completo do Brasil, baseado nos padrões da <strong style="color:#f8fafc">FEMEMG</strong> e da pesquisa de Denis Renner Peter.</p>
+          <p>Em <strong style="color:#f8fafc">menos de 1 minuto</strong>, veja como tudo funciona.</p>
+          <div class="wm-keys">
+            <div class="wm-key">Tela escura = <b>modo noturno</b></div>
+            <div class="wm-key">Grid = <b>2m por célula</b></div>
+            <div class="wm-key">Régua lateral = <b>altitude em metros</b></div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="wm-step" data-step="1">
+          <div class="wm-step-icon">🛠️</div>
+          <h2>Ferramentas</h2>
+          <p>A barra superior tem tudo que você precisa para criar seu croqui.</p>
+          <div class="wm-keys">
+            <div class="wm-key"><b>V</b><span>·</span>Selecionar — Mover, redimensionar e rotacionar</div>
+            <div class="wm-key"><b>P</b><span>·</span>Caneta — Desenhar linhas e traçados</div>
+            <div class="wm-key"><b>T</b><span>·</span>Texto — Escrever notas no croqui</div>
+            <div class="wm-key"><b>L</b><span>·</span>Travar / Destravar item selecionado</div>
+            <div class="wm-key"><b>Del</b><span>·</span>Excluir selecionados</div>
+            <div class="wm-key"><b>Ctrl+Z</b><span>·</span>Desfazer</div>
+            <div class="wm-key"><b>+</b> / <b>-</b><span>·</span>Redimensionar</div>
+            <div class="wm-key"><b>[</b> / <b>]</b><span>·</span>Rotacionar 15°</div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="wm-step" data-step="2">
+          <div class="wm-step-icon">📚</div>
+          <h2>Painel de Símbolos</h2>
+          <p>O painel lateral esquerdo contém todos os símbolos organizados por categoria. <strong style="color:#f8fafc">Clique</strong> em um símbolo para inserir no canvas, ou <strong style="color:#f8fafc">arraste</strong> diretamente para o local desejado.</p>
+          <div class="wm-img-row">
+            <div class="wm-sym-chip"><img src="/assets/symbols/b3-g.svg" alt=""> Proteção Fixa</div>
+            <div class="wm-sym-chip"><img src="/assets/symbols/b4-a-parada-fixa.svg" alt=""> Parada Fixa</div>
+            <div class="wm-sym-chip"><img src="/assets/symbols/b4-c-rapel.svg" onerror="this.src='/assets/symbols/b4-c-apenas-reuniao.svg'" alt=""> Reunião</div>
+            <div class="wm-sym-chip"><img src="/assets/symbols/b5-b-diedro.svg" alt=""> Diedro</div>
+            <div class="wm-sym-chip"><img src="/assets/symbols/b1-a.svg" alt=""> Atenção</div>
+            <div class="wm-sym-chip"><img src="/assets/symbols/b6-a-fissura-tipo-fenda-frontal.svg" alt=""> Fissura</div>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="wm-step" data-step="3">
+          <div class="wm-step-icon">📸</div>
+          <h2>Imagem de Fundo</h2>
+          <p>Use o botão de <strong style="color:#f8fafc">foto 🖼</strong> na barra para carregar uma imagem da parede de rocha como guia.</p>
+          <div class="wm-keys">
+            <div class="wm-key"><b>Arraste</b><span>·</span>Posicione a imagem no local certo</div>
+            <div class="wm-key"><b>+</b> / <b>-</b><span>·</span>Redimensione a foto</div>
+            <div class="wm-key"><b>Opacidade</b><span>·</span>Ajuste via slider na barra superior</div>
+            <div class="wm-key"><b>P/B</b><span>·</span>Converta para preto e branco</div>
+            <div class="wm-key"><b>L</b><span>·</span>Trave a foto para não mover acidentalmente</div>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="wm-step" data-step="4">
+          <div class="wm-step-icon">📤</div>
+          <h2>Exportar o Croqui</h2>
+          <p>Quando o croqui estiver pronto, exporte diretamente pela barra superior.</p>
+          <div class="wm-keys">
+            <div class="wm-key"><b>SVG</b><span>·</span>Arquivo vetorial, editável no Illustrator / Inkscape</div>
+            <div class="wm-key"><b>PDF</b><span>·</span>Alta qualidade, pronto para impressão</div>
+          </div>
+          <p style="margin-top:16px;">Quer aprender mais sobre o significado de cada símbolo? Visite a página <a href="/sobre.html" style="color:#3b82f6; text-decoration:none; font-weight:600;">Sobre &amp; Catálogo →</a></p>
+        </div>
+
+        <div class="wm-footer">
+          <div class="wm-dots" id="wm-dots"></div>
+          <div style="display:flex; gap:8px;">
+            <button class="wm-btn wm-btn-skip" id="wm-skip">Pular</button>
+            <button class="wm-btn wm-btn-next" id="wm-next">Próximo →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
+    <script>
+      const TOTAL_STEPS = 5
+      let currentStep = 0
+
+      const overlay = document.getElementById('welcome-modal-overlay')
+      const steps = document.querySelectorAll('.wm-step')
+      const dotsContainer = document.getElementById('wm-dots')
+      const btnNext = document.getElementById('wm-next')
+      const btnSkip = document.getElementById('wm-skip')
+
+      function buildDots() {
+        dotsContainer.innerHTML = ''
+        for (let i = 0; i < TOTAL_STEPS; i++) {
+          const d = document.createElement('div')
+          d.className = 'wm-dot' + (i === currentStep ? ' active' : '')
+          d.addEventListener('click', () => goToStep(i))
+          dotsContainer.appendChild(d)
+        }
+      }
+
+      function goToStep(n) {
+        steps[currentStep].classList.remove('active')
+        currentStep = n
+        steps[currentStep].classList.add('active')
+        btnNext.textContent = currentStep === TOTAL_STEPS - 1 ? 'Começar!' : 'Próximo →'
+        buildDots()
+      }
+
+      function closeModal() {
+        overlay.style.display = 'none'
+        localStorage.setItem('crocreator-welcomed', '1')
+      }
+
+      btnNext.addEventListener('click', () => {
+        if (currentStep < TOTAL_STEPS - 1) goToStep(currentStep + 1)
+        else closeModal()
+      })
+      btnSkip.addEventListener('click', closeModal)
+      overlay.addEventListener('click', e => { if (e.target === overlay) closeModal() })
+      document.addEventListener('keydown', e => {
+        if (!overlay.style.display || overlay.style.display === 'none') return
+        if (e.key === 'Escape') closeModal()
+        if (e.key === 'ArrowRight' && currentStep < TOTAL_STEPS - 1) goToStep(currentStep + 1)
+        if (e.key === 'ArrowLeft' && currentStep > 0) goToStep(currentStep - 1)
+      })
+
+      buildDots()
+
+      // Show only on first visit
+      if (!localStorage.getItem('crocreator-welcomed')) {
+        overlay.style.display = 'flex'
+      }
+
+      // Help button always opens it
+      document.getElementById('btn-help').addEventListener('click', () => {
+        goToStep(0)
+        overlay.style.display = 'flex'
+      })
+    </script>
   </body>
 </html>

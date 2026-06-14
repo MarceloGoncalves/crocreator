@@ -10,12 +10,16 @@
     :root {
       --bg: #0f172a;
       --bg-panel: #1e293b;
+      --bg-card: #263147;
       --text: #f8fafc;
       --text-light: #94a3b8;
       --primary: #3b82f6;
       --primary-hover: #2563eb;
+      --border: rgba(255,255,255,0.08);
     }
-    
+
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
       padding: 0;
@@ -26,96 +30,232 @@
     }
 
     header {
-      background-color: var(--bg-panel);
-      padding: 32px 0;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+      padding: 48px 24px 40px;
       text-align: center;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
     }
-
-    header h1 {
-      margin: 0;
-      font-weight: 900;
-      font-size: 2.8rem;
-      letter-spacing: -1px;
+    header::before {
+      content: '';
+      position: absolute;
+      top: -60px; left: 50%;
+      transform: translateX(-50%);
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+      pointer-events: none;
     }
+    header h1 { margin: 0; font-weight: 900; font-size: 2.8rem; letter-spacing: -1px; }
+    header p { color: var(--text-light); margin: 8px 0 0; font-size: 1.1rem; }
 
-    header p {
+    nav.page-nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 24px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    nav.page-nav a {
       color: var(--text-light);
-      margin: 8px 0 0 0;
-      font-size: 1.1rem;
+      text-decoration: none;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
     }
+    nav.page-nav a:hover { background: rgba(59,130,246,0.15); color: var(--text); }
 
     .container {
-      max-width: 800px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 40px 24px;
+      padding: 48px 24px;
     }
 
-    section {
-      margin-bottom: 48px;
-    }
+    section { margin-bottom: 64px; }
 
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.9rem;
       font-weight: 700;
-      margin-bottom: 16px;
-      border-bottom: 2px solid var(--primary);
-      display: inline-block;
-      padding-bottom: 4px;
+      margin-bottom: 8px;
+    }
+    .section-subtitle {
+      color: var(--text-light);
+      font-size: 1rem;
+      margin-bottom: 32px;
+    }
+    .section-divider {
+      width: 48px; height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+      margin-bottom: 12px;
     }
 
-    p {
-      font-size: 1.05rem;
-      margin-bottom: 16px;
-    }
-
+    /* ─── Feature Cards ─── */
     .feature-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
       margin-top: 24px;
     }
-
     .feature-card {
       background: var(--bg-panel);
       padding: 24px;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.05);
-      transition: transform 0.2s;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      transition: transform 0.2s, border-color 0.2s;
     }
+    .feature-card:hover { transform: translateY(-4px); border-color: rgba(59,130,246,0.3); }
+    .feature-card h3 { margin-top: 0; font-size: 1.1rem; color: var(--primary); display: flex; align-items: center; gap: 8px; }
+    .feature-card p { font-size: 0.93rem; color: var(--text-light); margin-bottom: 0; }
 
-    .feature-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .feature-card h3 {
-      margin-top: 0;
-      font-size: 1.2rem;
-      color: var(--primary);
+    /* ─── Symbol Gallery ─── */
+    .gallery-filter-bar {
       display: flex;
-      align-items: center;
       gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
     }
-
-    .feature-card p {
-      font-size: 0.95rem;
+    .filter-btn {
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: transparent;
       color: var(--text-light);
-      margin-bottom: 0;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .filter-btn:hover { background: rgba(59,130,246,0.1); color: var(--text); }
+    .filter-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
     }
 
-    .credits {
-      background: rgba(59, 130, 246, 0.1);
-      border-left: 4px solid var(--primary);
-      padding: 24px;
-      border-radius: 0 12px 12px 0;
-      margin-top: 48px;
+    .symbol-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 16px;
+    }
+    .symbol-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 12px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+    }
+    .symbol-card:hover {
+      border-color: rgba(59,130,246,0.4);
+      background: var(--bg-card);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    .symbol-card .sym-img {
+      width: 52px;
+      height: 52px;
+      object-fit: contain;
+      filter: invert(1);
+    }
+    .symbol-card .sym-name {
+      font-size: 0.78rem;
+      text-align: center;
+      color: var(--text);
+      line-height: 1.3;
+      font-weight: 500;
+    }
+    .symbol-card .sym-code {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      font-family: monospace;
+    }
+    .symbol-card .sym-badge {
+      position: absolute;
+      top: 8px; right: 8px;
+      width: 8px; height: 8px;
+      border-radius: 50%;
     }
 
-    .credits h3 {
-      margin-top: 0;
-      color: var(--primary);
+    /* ─── Symbol Tooltip Modal ─── */
+    .sym-modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .sym-modal-overlay.open { display: flex; }
+    .sym-modal {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 420px;
+      width: 90%;
+      text-align: center;
+      position: relative;
+      animation: modalIn 0.25s ease;
+    }
+    @keyframes modalIn {
+      from { opacity: 0; transform: scale(0.92) translateY(16px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .sym-modal .modal-close {
+      position: absolute;
+      top: 16px; right: 16px;
+      background: none;
+      border: none;
+      color: var(--text-light);
       font-size: 1.4rem;
+      cursor: pointer;
+      line-height: 1;
     }
+    .sym-modal .modal-sym-img {
+      width: 80px; height: 80px;
+      object-fit: contain;
+      filter: invert(1);
+      margin-bottom: 16px;
+    }
+    .sym-modal h3 { margin: 0 0 4px; font-size: 1.3rem; }
+    .sym-modal .modal-code { color: var(--text-light); font-family: monospace; font-size: 0.9rem; margin-bottom: 12px; }
+    .sym-modal .modal-cat-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .sym-modal .modal-desc {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* ─── Credits ─── */
+    .credits {
+      background: rgba(59,130,246,0.08);
+      border-left: 4px solid var(--primary);
+      padding: 28px;
+      border-radius: 0 14px 14px 0;
+    }
+    .credits h3 { margin-top: 0; color: var(--primary); font-size: 1.4rem; }
+    .ref-item { margin-bottom: 24px; }
+    .ref-item:last-child { margin-bottom: 0; }
 
     .btn-back {
       display: inline-flex;
@@ -125,23 +265,27 @@
       color: white;
       text-decoration: none;
       padding: 12px 24px;
-      border-radius: 8px;
+      border-radius: 10px;
       font-weight: 600;
       transition: background 0.2s;
       margin-top: 24px;
     }
-
-    .btn-back:hover {
-      background: var(--primary-hover);
-    }
+    .btn-back:hover { background: var(--primary-hover); }
 
     footer {
       text-align: center;
       padding: 24px;
       color: var(--text-light);
       font-size: 0.9rem;
-      border-top: 1px solid rgba(255,255,255,0.1);
+      border-top: 1px solid var(--border);
       margin-top: 40px;
+    }
+
+    #gallery-loading {
+      text-align: center;
+      color: var(--text-light);
+      padding: 40px;
+      font-size: 1rem;
     }
   </style>
 </head>
@@ -152,49 +296,82 @@
     <p>A ferramenta moderna para documentação de vias de escalada.</p>
   </header>
 
+  <nav class="page-nav">
+    <a href="#sobre">Sobre</a>
+    <a href="#galeria">Catálogo de Símbolos</a>
+    <a href="#creditos">Referências</a>
+    <a href="/index.html" style="background:var(--primary);color:white;font-weight:600;">Abrir Editor →</a>
+  </nav>
+
   <div class="container">
-    <section>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <div class="section-divider"></div>
       <h2>Sobre o Projeto</h2>
+      <p class="section-subtitle">Modernizando a documentação visual das vias de escalada no Brasil.</p>
       <p>O <strong>Crocreator</strong> nasceu da necessidade de modernizar e padronizar a documentação visual de vias de escalada no Brasil. Trata-se de uma ferramenta web robusta, desenhada no estilo CAD, que permite a montanhistas, conquistadores e escaladores desenhar croquis técnicos com altíssima precisão de forma muito intuitiva.</p>
       <p>Com foco extremo na experiência do usuário, o editor fornece não apenas uma biblioteca visual, mas também lógicas embutidas de desenho, importação de imagens reais de montanhas e suporte à exportação em alta fidelidade.</p>
-    </section>
 
-    <section>
-      <h2>Principais Funcionalidades</h2>
       <div class="feature-grid">
         <div class="feature-card">
           <h3>📚 Catálogo de Símbolos</h3>
-          <p>Dezenas de símbolos padronizados e organizados por categoria (Fissuras, Agarras, Proteções, Paradas), prontos para arrastar e soltar (drag-and-drop) diretamente no seu desenho.</p>
+          <p>55 símbolos padronizados e organizados por categoria (Proteções, Paradas, Fissuras, Terreno), prontos para arrastar e soltar diretamente no desenho.</p>
         </div>
         <div class="feature-card">
           <h3>🖌️ Traçados Dinâmicos</h3>
-          <p>Ferramenta de desenho inteligente que se adapta ao símbolo selecionado. Ele entende o contexto e renderiza automaticamente linhas tracejadas, cordas fixas ou fissuras em laca com segmentos perpendiculares.</p>
+          <p>Ferramenta de desenho inteligente que se adapta ao símbolo selecionado, renderizando automaticamente linhas tracejadas, cordas fixas ou fissuras em laca.</p>
         </div>
         <div class="feature-card">
-          <h3>📏 Escala e Grid Flexível</h3>
-          <p>O sistema recalcula a malha de fundo de acordo com a modalidade (Boulder, Esportiva, Tradicional e Big Wall), garantindo que as exportações gerem escalas milimétricas no eixo Y.</p>
+          <h3>📏 Régua de Altitude</h3>
+          <p>Grade com escala fixada em 2m por célula. A régua lateral acompanha o scroll e pode ser ocultada para uma exportação limpa.</p>
         </div>
         <div class="feature-card">
           <h3>📸 Base Fotográfica</h3>
-          <p>Suporte para carregar imagens das paredes de rocha com transparência de 50%. A foto fica travada e serve de referência perfeita para você desenhar as vias guiado pela realidade.</p>
+          <p>Carregue uma foto da parede de rocha como referência. Ajuste opacidade, converta para preto e branco e trave a imagem para desenhar por cima.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🔒 Trava Inteligente</h3>
+          <p>Trave objetos individualmente para evitar movê-los acidentalmente. Itens travados ainda podem ser selecionados e destravados a qualquer momento.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📤 Exportação</h3>
+          <p>Exporte seu croqui em SVG vetorial (editável em Illustrator e Inkscape) ou PDF de alta qualidade, pronto para impressão.</p>
         </div>
       </div>
     </section>
 
-    <section class="credits">
-      <h3>Inspiração e Base Acadêmica</h3>
-      <p>Toda a iconografia embutida no sistema — englobando o desenho visual das agarras, proteções, vegetações e perfis de via — segue rigorosamente os padrões de sinalética propostos pelo trabalho fundamental de <strong>Denis Renner Peter</strong> e da <strong>FEMEMG</strong>. O objetivo do Crocreator é honrar esse trabalho, oferecendo um software gratuito que ajude a unificar a linguagem visual do montanhismo nacional e tornar a leitura de croquis universal e segura.</p>
-      
-      <div class="references" style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1);">
-        <div class="ref-item" style="margin-bottom: 24px;">
-          <strong style="font-size: 1.1rem; display: block; margin-bottom: 4px;">Guia para a elaboração de croquis de escalada</strong>
-          <span style="color: var(--text-light); font-size: 0.95rem;">1.ª edição, 11/2022 — Federação de Montanhismo e Escalada do Estado de Minas Gerais (FEMEMG)</span><br>
-          <a href="https://fememg.org.br/wp-content/uploads/2023/07/FEMEMG_guia-para-a-elaboracao-de-croquis_final-jul23.pdf" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.95rem; display: inline-block; margin-top: 8px;">Acessar o Guia PDF &rarr;</a>
-        </div>
-        <div class="ref-item">
-          <strong style="font-size: 1.1rem; display: block; margin-bottom: 4px;">PETER, Denis Renner.</strong>
-          <span style="color: var(--text-light); font-size: 0.95rem;"><em>Design da Informação centrado no usuário: uma proposta de representação das variáveis informacionais nos croquis e na catalogação de vias de escalada tradicional.</em> 2019.<br>Dissertação (Mestrado em Design) - Universidade Federal de Pernambuco, Recife, 2019.</span><br>
-          <a href="https://repositorio.ufpe.br/bitstream/123456789/37681/1/DISSERTA%c3%87%c3%83O%20Denis%20Renner%20Peter.pdf" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.95rem; display: inline-block; margin-top: 8px;">Acessar a Dissertação &rarr;</a>
+    <!-- GALERIA DE SÍMBOLOS -->
+    <section id="galeria">
+      <div class="section-divider"></div>
+      <h2>Catálogo de Símbolos</h2>
+      <p class="section-subtitle">Toda a iconografia segue o padrão FEMEMG / Denis Renner Peter. Clique em um símbolo para ver detalhes.</p>
+
+      <div class="gallery-filter-bar" id="gallery-filters">
+        <div id="gallery-loading">Carregando símbolos…</div>
+      </div>
+
+      <div class="symbol-grid" id="symbol-grid"></div>
+    </section>
+
+    <!-- CRÉDITOS -->
+    <section id="creditos">
+      <div class="section-divider"></div>
+      <h2>Inspiração e Base Acadêmica</h2>
+      <div class="credits">
+        <h3>Referências</h3>
+        <p>Toda a iconografia embutida no sistema segue rigorosamente os padrões de sinalética propostos pelo trabalho fundamental de <strong>Denis Renner Peter</strong> e da <strong>FEMEMG</strong>.</p>
+        <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border);">
+          <div class="ref-item">
+            <strong style="font-size:1.05rem; display:block; margin-bottom:4px;">Guia para a elaboração de croquis de escalada</strong>
+            <span style="color:var(--text-light); font-size:0.92rem;">1.ª edição, 11/2022 — Federação de Montanhismo e Escalada do Estado de Minas Gerais (FEMEMG)</span><br>
+            <a href="https://fememg.org.br/wp-content/uploads/2023/07/FEMEMG_guia-para-a-elaboracao-de-croquis_final-jul23.pdf" target="_blank" rel="noopener noreferrer" style="color:var(--primary); text-decoration:none; font-weight:500; font-size:0.92rem; display:inline-block; margin-top:8px;">Acessar o Guia PDF →</a>
+          </div>
+          <div class="ref-item">
+            <strong style="font-size:1.05rem; display:block; margin-bottom:4px;">PETER, Denis Renner.</strong>
+            <span style="color:var(--text-light); font-size:0.92rem;"><em>Design da Informação centrado no usuário: uma proposta de representação das variáveis informacionais nos croquis e na catalogação de vias de escalada tradicional.</em> 2019.<br>Dissertação (Mestrado em Design) - Universidade Federal de Pernambuco, Recife, 2019.</span><br>
+            <a href="https://repositorio.ufpe.br/bitstream/123456789/37681/1/DISSERTA%c3%87%c3%83O%20Denis%20Renner%20Peter.pdf" target="_blank" rel="noopener noreferrer" style="color:var(--primary); text-decoration:none; font-weight:500; font-size:0.92rem; display:inline-block; margin-top:8px;">Acessar a Dissertação →</a>
+          </div>
         </div>
       </div>
     </section>
@@ -205,9 +382,129 @@
     </a>
   </div>
 
+  <!-- Symbol Detail Modal -->
+  <div class="sym-modal-overlay" id="sym-modal-overlay">
+    <div class="sym-modal">
+      <button class="modal-close" id="sym-modal-close">&times;</button>
+      <img class="modal-sym-img" id="modal-sym-img" src="" alt="">
+      <h3 id="modal-sym-name"></h3>
+      <div class="modal-code" id="modal-sym-code"></div>
+      <span class="modal-cat-badge" id="modal-sym-cat"></span>
+      <p class="modal-desc" id="modal-sym-desc"></p>
+    </div>
+  </div>
+
   <footer>
     &copy; 2026 Crocreator. Construído com carinho para a comunidade de escalada.
   </footer>
+
+  <script>
+    const CAT_COLORS = {
+      informacao:        { bg: 'rgba(245,158,11,0.15)',  color: '#f59e0b',  label: 'Sinais de Informação' },
+      referencia_natural:{ bg: 'rgba(34,197,94,0.15)',   color: '#22c55e',  label: 'Referências Naturais' },
+      protecao:          { bg: 'rgba(59,130,246,0.15)',  color: '#3b82f6',  label: 'Traçados e Proteções' },
+      reuniao:           { bg: 'rgba(168,85,247,0.15)',  color: '#a855f7',  label: 'Paradas, Rapeis e Bivaques' },
+      via:               { bg: 'rgba(20,184,166,0.15)',  color: '#14b8a6',  label: 'Referências Escaláveis' },
+      terreno:           { bg: 'rgba(239,68,68,0.15)',   color: '#ef4444',  label: 'Fissuras e Cavidades' },
+    }
+
+    const DESCRIPTIONS = {
+      informacao: 'Indica ao escalador uma condição especial de risco ou atenção no trecho da via.',
+      referencia_natural: 'Marca elementos naturais do ambiente que servem como referência de localização na via.',
+      protecao: 'Representa o trajeto da via, pontos de proteção ou equipamentos de progressão e segurança.',
+      reuniao: 'Indica uma parada, rapel ou bivaque na via, com informações sobre a qualidade da parada.',
+      via: 'Descreve a morfologia do terreno escalável — a forma e inclinação do trecho de rocha.',
+      terreno: 'Indica o tipo de fissura ou cavidade presente na via.',
+    }
+
+    let allSymbols = []
+    let activeCategory = 'all'
+
+    async function loadGallery() {
+      try {
+        const resp = await fetch('/assets/catalog.json')
+        const data = await resp.json()
+        allSymbols = data.symbols
+        buildFilters()
+        renderGrid('all')
+      } catch(e) {
+        document.getElementById('gallery-loading').textContent = 'Erro ao carregar catálogo.'
+      }
+    }
+
+    function buildFilters() {
+      const bar = document.getElementById('gallery-filters')
+      bar.innerHTML = ''
+
+      const categories = [{ id: 'all', label: 'Todos' }]
+      const seen = new Set()
+      allSymbols.forEach(s => {
+        if (!seen.has(s.category)) {
+          seen.add(s.category)
+          categories.push({ id: s.category, label: CAT_COLORS[s.category]?.label || s.categoryLabel })
+        }
+      })
+
+      categories.forEach(cat => {
+        const btn = document.createElement('button')
+        btn.className = 'filter-btn' + (cat.id === 'all' ? ' active' : '')
+        btn.textContent = cat.id === 'all' ? `Todos (${allSymbols.length})` : `${cat.label}`
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'))
+          btn.classList.add('active')
+          activeCategory = cat.id
+          renderGrid(cat.id)
+        })
+        bar.appendChild(btn)
+      })
+    }
+
+    function renderGrid(category) {
+      const grid = document.getElementById('symbol-grid')
+      const filtered = category === 'all' ? allSymbols : allSymbols.filter(s => s.category === category)
+      grid.innerHTML = ''
+
+      filtered.forEach(sym => {
+        const catStyle = CAT_COLORS[sym.category] || { bg: 'rgba(148,163,184,0.15)', color: '#94a3b8' }
+        const card = document.createElement('div')
+        card.className = 'symbol-card'
+        card.innerHTML = `
+          <span class="sym-badge" style="background:${catStyle.color}"></span>
+          <img class="sym-img" src="/${sym.file}" alt="${sym.name}" loading="lazy" onerror="this.style.opacity=0.2">
+          <span class="sym-name">${sym.name}</span>
+          <span class="sym-code">${sym.code}</span>
+        `
+        card.addEventListener('click', () => openModal(sym))
+        grid.appendChild(card)
+      })
+    }
+
+    function openModal(sym) {
+      const catStyle = CAT_COLORS[sym.category] || { bg: 'rgba(148,163,184,0.15)', color: '#94a3b8', label: sym.categoryLabel }
+      const catLabel = CAT_COLORS[sym.category]?.label || sym.categoryLabel
+      document.getElementById('modal-sym-img').src = '/' + sym.file
+      document.getElementById('modal-sym-name').textContent = sym.name
+      document.getElementById('modal-sym-code').textContent = sym.code
+      const badge = document.getElementById('modal-sym-cat')
+      badge.textContent = catLabel
+      badge.style.background = catStyle.bg
+      badge.style.color = catStyle.color
+      document.getElementById('modal-sym-desc').textContent = DESCRIPTIONS[sym.category] || ''
+      document.getElementById('sym-modal-overlay').classList.add('open')
+    }
+
+    document.getElementById('sym-modal-close').addEventListener('click', () => {
+      document.getElementById('sym-modal-overlay').classList.remove('open')
+    })
+    document.getElementById('sym-modal-overlay').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.classList.remove('open')
+    })
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') document.getElementById('sym-modal-overlay').classList.remove('open')
+    })
+
+    loadGallery()
+  </script>
 
 </body>
 </html>
