@@ -70,16 +70,16 @@ export class Editor {
 
     const bounds = paper.view.bounds
 
-    const scaleSelect = document.getElementById('scale-select') as HTMLSelectElement
-    const metersPerGrid = scaleSelect ? parseInt(scaleSelect.value) : 10
+    // Scale is fixed at 2m per grid cell
+    const metersPerGrid = 2
 
     const firstY = Math.floor(bounds.top / 50) * 50
 
     // Draw horizontal grid lines and altitude text
     for (let y = firstY; y <= bounds.bottom; y += 50) {
       const line = new paper.Path.Line(new paper.Point(bounds.left, y), new paper.Point(bounds.right, y))
-      line.strokeColor = new paper.Color(0, 0, 0, 0.02) // Opacidade bem menor
-      line.dashArray = [4, 8] // Linha tracejada para ficar ainda mais leve
+      line.strokeColor = new paper.Color(0, 0, 0, 0.02)
+      line.dashArray = [4, 8]
       group.addChild(line)
 
       const altitude = Math.round(-y * (metersPerGrid / 50))
@@ -115,17 +115,21 @@ export class Editor {
   exportPDF(filename = 'croqui.pdf') {
     const grid = this.createExportGrid()
     paper.view.update()
-    const svg = paper.project.exportSVG({ asString: true }) as string
     grid.remove()
 
-    const w = paper.view.viewSize.width
-    const h = paper.view.viewSize.height
+    const w = this.canvas.width
+    const h = this.canvas.height
+
+    // Export canvas as PNG via toDataURL, then embed into PDF via jsPDF
+    const dataUrl = this.canvas.toDataURL('image/png', 1.0)
+
     const pdf = new jsPDF({
       orientation: w > h ? 'landscape' : 'portrait',
       unit: 'px',
       format: [w, h],
+      hotfixes: ['px_scaling'],
     })
-    pdf.addSvgAsImage(svg, 0, 0, w, h)
+    pdf.addImage(dataUrl, 'PNG', 0, 0, w, h)
     pdf.save(filename)
   }
 
