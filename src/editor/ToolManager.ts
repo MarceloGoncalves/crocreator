@@ -14,11 +14,18 @@ export class ToolManager {
   private active: ToolName = 'select'
   onToolChange?: (tool: ToolName) => void
 
+  globalStrokeWidth: number = 3
+
   constructor(history: History, onChanged: () => void) {
     this.select = new SelectTool(history, onChanged)
     this.pen = new PenTool(history, onChanged)
     this.symbol = new SymbolTool(history, onChanged)
     this.text = new TextTool(history, onChanged)
+  }
+
+  setGlobalStrokeWidth(width: number) {
+    this.globalStrokeWidth = width
+    this.pen.strokeWidth = width
   }
 
   setTool(name: ToolName) {
@@ -42,7 +49,7 @@ export class ToolManager {
     // funcionam como ferramentas de caneta.
     if (['B3-a', 'B3-b', 'B3-c', 'B3-d', 'B6-d', 'b3-a', 'b3-b', 'b3-c', 'b3-d', 'b6-d'].includes(sym.code)) {
       this.pen.strokeColor = sym.color || '#000000'
-      this.pen.strokeWidth = 3
+      this.pen.strokeWidth = this.globalStrokeWidth
       this.pen.decorationType = 'none' // default
       
       if (sym.code.toLowerCase() === 'b3-a') {
@@ -51,11 +58,9 @@ export class ToolManager {
       } else if (sym.code.toLowerCase() === 'b3-b') {
         // Rota em Artificial -> pontilhada
         this.pen.dashArray = [2, 8]
-        this.pen.strokeWidth = 4
       } else if (sym.code.toLowerCase() === 'b3-c') {
         // Trecho de caminhada -> linha com pequenas flechas apontando a direção
         this.pen.dashArray = null
-        this.pen.strokeWidth = 2
         this.pen.decorationType = 'arrows'
       } else if (sym.code.toLowerCase() === 'b3-d') {
         // Corda fixa ou cabo de aço -> contínuo com pontinho (dash-dot)
@@ -63,7 +68,6 @@ export class ToolManager {
       } else if (sym.code.toLowerCase() === 'b6-d') {
         // Fissura em Laca -> linha contínua com segmentos perpendiculares (laca)
         this.pen.dashArray = null
-        this.pen.strokeWidth = 2
         this.pen.decorationType = 'laca'
       }
       
@@ -76,7 +80,7 @@ export class ToolManager {
 
   resetPen() {
     this.pen.strokeColor = '#e2e8f0'
-    this.pen.strokeWidth = 3
+    this.pen.strokeWidth = this.globalStrokeWidth
     this.pen.dashArray = null
     this.pen.decorationType = 'none'
   }

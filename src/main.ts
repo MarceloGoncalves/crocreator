@@ -49,6 +49,12 @@ document.getElementById('image-opacity-slider')!.addEventListener('change', () =
   history.snapshot()
 })
 
+document.getElementById('stroke-width-slider')!.addEventListener('input', (e) => {
+  const val = parseInt((e.target as HTMLInputElement).value)
+  document.getElementById('stroke-width-value')!.textContent = val + 'px'
+  tools.setGlobalStrokeWidth(val)
+})
+
 document.getElementById('image-bw-toggle')!.addEventListener('change', (e) => {
   const isBW = (e.target as HTMLInputElement).checked
   const selected = tools.select.selectedItemsList
@@ -255,6 +261,10 @@ setInterval(updateUI, 100)
 tools.onToolChange = (name) => {
   if (name !== 'symbol') {
     document.getElementById('status-symbol')!.textContent = ''
+  }
+  const strokeProps = document.getElementById('stroke-properties')
+  if (strokeProps) {
+    strokeProps.style.display = name === 'pen' ? 'flex' : 'none'
   }
 }
 

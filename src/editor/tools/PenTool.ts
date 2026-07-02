@@ -53,12 +53,14 @@ export class PenTool {
                 fillColor: this.strokeColor,
                 closed: true
               })
+              arrow.scale(this.strokeWidth / 2)
               arrow.position = point
               arrow.rotation = tangent.angle
               group.addChild(arrow)
             }
           } else if (this.decorationType === 'laca') {
             const segmentSpacing = 15 // closer spacing for laca
+            const scale = this.strokeWidth / 2
             for (let offset = segmentSpacing / 2; offset < this.currentPath.length; offset += segmentSpacing) {
               const point = this.currentPath.getPointAt(offset)
               const tangent = this.currentPath.getTangentAt(offset)
@@ -67,7 +69,7 @@ export class PenTool {
               const lacaLine = new paper.Path({
                 segments: [
                   point,
-                  point.add(normal.multiply(8)) // 8px long perpendicular line
+                  point.add(normal.multiply(8 * scale)) // scaled perpendicular line
                 ],
                 strokeColor: this.strokeColor,
                 strokeWidth: this.strokeWidth,
